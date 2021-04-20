@@ -1,0 +1,188 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Contacto</title>
+<link href="../css/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="Style .css" rel="stylesheet" type="text/css">
+	
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+</head>
+
+<body>
+	
+	<!--Header-->
+	<header>
+		<div class = "container">
+				
+			<a href = "index.html"><img src = "../img/Logo Superior.png" class = "LogoSup"/></a>			
+				
+			<img src = "../img/Buscador.png" class = "Buscador"/>
+			<div class="clearfix"></div>
+		</div>
+	
+		<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+        
+        	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+       	  		<span class="navbar-toggler-icon"></span>
+       		</button>
+			
+        	<div class="collapse navbar-collapse BarraMenu" id="navbarCollapse">
+			<div class ="container">
+          		<ul class="navbar-nav mr-auto">
+          			<li><a href = "index.html"> Home</a></li>
+					<li><a href = "Cursos.html"> Cursos</a></li>
+					<li><a href = "Certificados.html"> Certificados</a></li>
+					<li><a href = "Noticias.html"> Noticias</a></li>
+					<li><a href = "Galeria.html"> Galería</a></li>
+					<li><a href = "Contacto.html"> Contacto</a></li>
+          		</ul>
+			</div>
+        	</div>
+      </nav>
+	</header>
+
+	<!--Formulario-->
+	<div class = "container">
+		<div class = "row">
+			
+			<img class = "FotoContactos" src = "../img/FotoContacto.png">
+			
+			<div class = "col-md-4">
+				<div class = "InformacionContacto">
+					
+				  <!--Tabs-->
+				  <h1>Información</h1>
+					<p1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed </p1>
+					
+				  	<div id="tabs">
+					<div class = "TabsTitulos">
+					  <ul>
+						<li><a href="#tabs-1">Casa Principal</a></li>
+						<li><a href="#tabs-2">Sede Bilbao</a></li>
+					  </ul>
+					</div>
+					<div class = "ContenidoTabs">
+					  <div id="tabs-1">
+						<img src = "../img/Telefono.png" class = "FotosTabs"/>	
+						<p>(+56 2) 294 86 953</p>
+						<img src = "../img/Mail.png" class = "FotosTabs"/>
+						<p>KitchenArtist@clases.cl</p>
+						<img src = "../img/Ubicacion.png" class = "FotosTabs"/>
+						<p>Camino el parque 100</p>
+					  </div>
+					  <div id="tabs-2">
+						<img src = "../img/Telefono.png" class = "FotosTabs"/>
+						<p>(+56 2) 224 93 658</p>
+						<img src = "../img/Mail.png" class = "FotosTabs"/>
+						<p>KitchenArtist@clases.cl</p>
+						<img src = "../img/Ubicacion.png" class = "FotosTabs"/>
+						<p>Francisco Bilbao 5550</p>
+					  </div>
+					</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class = "col-md-8">
+				<div class = "FormularioContacto">
+					
+					<h1>Envianos un mensaje</h1>
+					
+					<p1>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt </p1>
+					
+					<div class = "ContenidoFormulario">
+					<form action="">
+						<input type = "text" name = "Nombre" placeholder = "Nombre">
+						<input type = "text" name = "Apellido" placeholder = "Apellido">
+						<input type = "text" name = "Email" placeholder = "Email">
+						<input type = "text" name = "NumeroDeTelefono" placeholder = "Numero de telefono">
+						<textarea name = "mensaje" placeholder="Mensaje"></textarea>
+						<input type="button" value="Enviar" id="boton">
+					</form>
+					</div>			
+					
+				</div>
+			</div>
+			
+		</div>
+	</div>
+	
+	
+	<!--Footer-->
+	<div class = "Footer">
+		<div class = "container">
+				<div class = "row">
+
+
+					<div class = "col-md-3"> 
+						<img src = "../img/Logo.png">			<!--Imagen del logo-->
+					</div>
+
+
+					<div class = "col-md-3">
+
+							<p1>Casa Principal</p1>
+
+							<ul>
+								<li>Camino el Parque 100</li>
+								<li>Vitacura - Santiago</li>
+								<li>(+56 2)294 86 953</li>
+							</ul>
+
+							<div class = "clearfix"></div>
+					</div>
+
+
+					<div class = "col-md-3">
+
+							<p1>Sede Bilbao</p1>
+
+							<ul>
+								<li>Francisco Bilbao 5550</li>
+								<li>Las Condes - Santiago</li>
+								<li>(+56 2) 224 93 658 </li>
+							</ul>
+
+							<div class = "clearfix"></div>	
+					</div>
+
+
+					<div class = "col-md-3">
+						<div class = "RedesSociales">
+							<p1>Siguenos</p1>
+							<img src = "../img/RedesSociales.png">
+						</div>
+					</div>
+
+
+				</div>
+			</div>
+		</div>
+				
+	
+	<!--END-->
+	<div class = "END"></div>
+	
+	
+	
+	
+	<!--Cargo todos los js antes de cerrar el body-->
+	<script src="../js/jquery-1.12.4.js"></script>
+	<script src="../js/jquery-ui.js"></script>
+	<script src="../js/popper.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/holder.js"></script>
+	
+	<script>
+	  $( function() {
+		$( "#tabs" ).tabs();
+	  } );
+  	</script>
+
+	
+</body>
+</html>

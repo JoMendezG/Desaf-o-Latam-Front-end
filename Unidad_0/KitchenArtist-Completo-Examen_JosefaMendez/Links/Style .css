@@ -1,0 +1,622 @@
+@charset "utf-8";
+
+@font-face {
+	font-family: MiTypografia; 				/* Cualquier nombre el que yo quiera */
+	src: url(../Fonts/ntailu.ttf);
+}
+
+@font-face {
+	font-family: MiTypografia2;
+	src: url(../Fonts/ntailub.ttf);
+}
+
+/* ///////////////////////////			HEADER			//////////////////////////////// */
+
+
+header { 									/* Es una etiqueta*/
+	background:#FFA688;						/* Color del fondo*/
+}
+
+.bg-dark{									/* Clase para poder pintar la barra del menú y hamburguesa*/
+	background-color:#FC8363!important;		/* Color con important p q en boostrap había otro que quitaba prioridad*/
+}
+
+.Buscador {
+	float:left;
+	margin-left: 800px;
+	margin-top: -70px;
+}
+
+.LogoSup {
+	float: left;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+.clearfix{									/* Clearfix para que los objetos no floten sobre sí*/
+	clear:both;
+}
+
+
+@media (max-width:600px){					/* Incerto mi Media Query. En otras palabras debajo de 600px cambia*/
+	
+	.Buscador {								/* Me meto en la clase buscar */
+		display: none;						/* Y le digo que debajo de 600px no aparesca */
+	}
+	
+	.LogoSup {								
+		width: 250px;
+		height: auto;
+		margin-bottom: 0px;
+	}
+	
+	.navbar-toggler {						/* Clase de la hamburguesa */
+		margin-left: 270px;
+		margin-top: -70px;
+	}
+}
+
+
+/* /////////////////////////// 		BARRA MENU		 //////////////////////////////// */
+
+.BarraMenu {
+	background:#FC8363;						/* Color del fondo*/
+}
+
+.BarraMenu li{
+	float: left;							/* Alineo el texto a la izquierda */
+	list-style:none; 						/*Elimino las pelotitas de al lado del nombre*/
+	text-transform: uppercase; 				/* Genero mi texto en máyusculas */
+	font-weight: bold; 						/* Letras en negrita */
+	font-size: 20px;						/* Tamaño del texto */
+	text-align: center;						/* Alineo el texto al centro*/
+	padding-left: 10px;
+	margin: 0px 100px 0 0;
+}
+
+.BarraMenu li a:hover { 					/*funcion cunado el mouse está encima de mi texto*/
+	color: #fff;							/* Color cuando este encima*/
+}
+
+.BarraMenu li a {							/* Sub Menus de la barra */
+	color:#fff;								/* Color del texto */
+}
+
+
+@media(max-width:600px){
+	.BarraMenu li{
+		float:none;
+		text-align: left;
+		margin:10px 0;
+	}
+}
+
+/* //////////////////////// 		FOTOS SUPERIORES		//////////////////////////// */
+
+
+.Carrusel {									/* Imagen del carrucel*/			
+	margin-top: 50px;						/* Margen del  Carrusel superior */
+}
+
+.FotoCursos {
+	margin-right: 300px;
+}
+
+@media(max-width:600px){
+	
+}
+
+/* //////////////////////// 		TEXTO RESUMEN		//////////////////////////// */
+
+
+.textoResumen {
+	background:#F5F5F5;						/* Color del fondo */
+	padding: 25px 100px; 					/* Creo el tamaño de mi cuadrado */
+	margin-top: 50px;						/* Le digo que se centre u no este completa en toda la pagina */
+	text-align:center; 						/* Coloco el texto desde el centro */
+	font-size: 22px; 						/* Tamaño del texto */
+	color: #F48A71; 						/* Cambio el color del texto */
+}
+
+@media (max-width:600px) {
+	.textoResumen{
+		font-size: 15px;
+		padding: 25px 30px;
+	}
+}
+ 
+/* ///////////////////////////	    	NOTICIAS			//////////////////////////// */
+
+
+.news {										/* Clase que almacena las noticias */
+	margin-top: 25px;						/* Margen superior */
+	background-color:#FFDFB3; 				/* Color de fondo de las noticias */
+	text-align:center; 						/* El texto se alinea en el centro */
+	font-size: 20px;						/* Tamaño de la letra */			
+	padding-bottom: 30px;					/* Margen interior inferior */	
+}
+
+.news img {									/* Imagenes de las noticias */
+	margin-top: 50px;						/* Margen superior */
+	margin-bottom: 20px;					/* Margen inferior */
+}
+
+.news h2 a {								/* Títuos de la noticia */
+	color: #787878;							/* Color del texto */	
+	font-weight: bold;						/* Texto en negrita */ 
+	font-size: 23px;						/* Tamaño del texto */
+	margin-top: 10px;						/* Margen superior */
+}
+
+
+.news p2 {									/* Fecha de la noticia */
+	margin-left: 190px;						/* Margen de la izquierda */
+	font-size: 15px;						/* Tamaño de la letra */
+	color: #898989;							/* Color del texto */
+}
+
+
+.news p a{									/* Cuerpo de la noticia */
+	color: #969696;							/* Color del texto */
+}
+
+.news p {
+	margin: 20px 30px 0 30px;				/* margen del parrafo */
+}
+
+
+
+/* Pararce encima de las Noticias */
+
+
+.newsOver{									/* Clase cuando me paro encma de las noticias*/
+	background-color:#F9CB98;
+}
+
+.newsOver p a {								/* Clase cuando me paro encima de las noticias cambia color de texto*/
+	color: #fff;							/* Color cuando este encima*/
+	text-decoration: none; 					/* Quite las lineas de url */
+}
+
+.newsOver p2 {								/* Clase cuando me paro encima de las noticias cambia color de texto*/
+	color: #fff;							/* Color cuando este encima*/
+	text-decoration: none; 					/* Quite las lineas de url */
+}
+
+.newsOver h2 a {								/* Clase cuando me paro encima de las noticias cambia color de texto*/
+	color: #fff;							/* Color cuando este encima*/
+	text-decoration: none; 					/* Quite las lineas de url */
+}
+
+
+/* ///////////////	    	Noticias Especificas			///////////////////////// */
+
+
+.TextoResumenNoticiasEspecificas{
+	background:#FFA688;						/* Color del fondo */
+	padding: 15px 0px 15px 15px; 					/* Creo el tamaño de mi cuadrado */
+	margin-top: 25px;						/* Le digo que se centre u no este completa en toda la pagina */
+	text-align:left; 						/* Coloco el texto desde el centro */
+	font-size: 22px; 						/* Tamaño del texto */
+	color: #fff; 							/* Cambio el color del texto */
+}
+
+.ContenidoNoticia2 { 
+	margin-top: 20px;						/* Le digo que se centre u no este completa en toda la pagina */
+	text-align:left; 						/* Coloco el texto desde el centro */
+	font-size: 18px; 						/* Tamaño del texto */
+	color: #969696; 						/* Cambio el color del texto */
+}
+
+.ui-accordion-header {						/* Clase para todos las ventanas del acordeon*/
+	font-size: 22px;
+	padding: 15px 10px;
+	background:#fff;
+	color:rgba(150, 150, 150, 0.4);
+	border-radius: 10px;
+	border-style: solid;					/* Debo mencionar que tipo de borde tengo para verlo */
+	border-color: #DCDCDC;
+	border-width: 2px;
+}
+
+.ui-accordion-header-active {				/* Clase de cuando preciono mi pestaña */
+	background: #F48A71;					/* Color cuando selecciono mi pestaña del acordeon */
+	padding: 15px 10px;
+	font-size: 22px;
+	color:#fff;
+	border:none;
+}
+
+.ui-accordion-content {						/* Clase que contiene el contenido del acordeon */
+	background: #fff;
+	border-style: solid;					/* Debo mencionar que tipo de borde tengo para verlo */
+	border-color: #F48A71;
+	border-width: 2px;
+	border-radius: 10px;
+	margin-bottom: 25px;
+}
+
+.ui-accordion-content p {					/* Clase que contiene el parrafo del acordeon */
+	color: #969696;
+	margin: 10px 20px;
+	font-size: 16px;
+}
+
+@media (max-width:600px){
+	.TextoResumenNoticiasEspecificas{
+		padding: 10px 15px; 				/* Creo el tamaño de mi cuadrado */
+		margin-top: 25px;					/* Le digo que se centre u no este completa en toda la pagina */
+		text-align:left; 					/* Coloco el texto desde el centro */
+		font-size: 20px; 					/* Tamaño del texto */
+	}
+	
+	.ContenidoNoticia2 { 
+		margin-top: 20px;					/* Le digo que se centre u no este completa en toda la pagina */
+		text-align:left; 					/* Coloco el texto desde el centro */
+		font-size: 16px; 					/* Tamaño del texto */
+		margin-left: 15px;
+	}
+	
+	.FotoNoticias2 {
+		width:430px;
+		height: auto;
+		margin-left: -20px;
+		margin-top: 50px;
+	}
+}
+
+
+/* ///////////////////////////	    	CURSOS			//////////////////////////// */
+
+
+.Cursos {									/* Clase que almacena los cursos */
+	margin-top: 50px;						/* Margen superior */
+	padding-left: 15px;
+	padding-bottom: 30px;
+}
+
+
+.Cursos img{								/* Fotos de los cursos */
+	float: left;							/* Alineo la foto a las izquierda*/
+	margin-top: 30px;						/* Margen superior */
+}
+
+.Cursos ul a{								/* Contenido de los cursos */
+	float: left;							/* Que el texto se alinea a la izq */
+	margin-top: -70px;						/* Margenes superiores */
+	margin-left: 80px;						/* Margenes a la izquierda */
+	color: #787878;							/* Cambio de color el texto */
+	list-style:none;						/* Le quito los puntos al listado */ 
+}
+
+.Cursos p1 a {								/* Título de los Cursos */
+	float: left;							/* Que el texto se alinea a la izq */
+	color: #787878;							/* Cambio de color el texto */
+	font-weight: bold;						/* Texto en negrita */
+	margin-left: 15px;						/* Margenes a la izquierda */
+	margin-top: 30px;						/* Margenes superiores */
+	text-transform: uppercase;				/* Todo el texto en máyuscula */
+}
+
+.cursosOver {
+	background:#F0F0F0;	
+}
+
+.cursosOver p a {							/* Clase cuando me paro encima de las noticias cambia color de texto*/
+	color: #fff;							/* Color cuando este encima*/
+	text-decoration: none; 					/* Quite las lineas de url */
+}
+
+.cursosOver p2 {								/* Clase cuando me paro encima de las noticias cambia color de texto*/
+	color: #fff;							/* Color cuando este encima*/
+	text-decoration: none; 					/* Quite las lineas de url */
+}
+
+.cursosOver h2 a {								/* Clase cuando me paro encima de las noticias cambia color de texto*/
+	color: #fff;							/* Color cuando este encima*/
+	text-decoration: none; 					/* Quite las lineas de url */
+}
+
+.curso {
+	margin-top: 0px;
+	height:150px;
+}
+
+@media (max-width:600px){
+	.FotoCursos {
+		width: 370px;
+		height: 190px;
+		margin-top: 0px;
+	}
+}
+	
+
+/* ///////////////////////////	    	FOOTER			//////////////////////////// */
+
+
+.Footer {
+	background: #FFA688;					/* Color del footer */ 
+	margin-top: 60px;						/* Margen superior */
+	padding: 25px 0 25px 0;						
+	color: #FFFFFF;							/* Color del texto */
+}
+
+
+.Footer p1 {								/* Título de la dirección */
+	font-weight: bold;  					/* Texto en negrita */
+}
+
+.Footer ul {		
+	margin-left: -40px;
+	list-style:none;
+}
+
+.RedesSociales p1 {
+	margin: 0 150px 250px 0;
+}
+
+.RedesSociales img {
+	margin: 15px 0 0 0;
+}
+
+
+.END {
+	background: #FC8363;					/* Color del final */
+	padding: 15px; 							/* Grosor del final */
+}
+
+
+/* ///////////////////////////	    	CERTIFICADOS			//////////////////////// */
+
+.ContenidoCertificados {
+	margin-top: 70px;
+}
+
+.ContenidoCertificados h1{
+	color:#F46245;
+}
+
+.ContenidoCertificados p {
+	color:#969696;
+}
+
+.fotosCertificado {
+	margin-top:25px;
+}
+
+@media (max-width:600px){
+	.fotosCertificado img {
+		width: 100px;
+		height: auto;
+	}
+	
+	.ContenidoCertificados h1 {
+
+		font-size: 15px;
+	}
+	
+	.ContenidoCertificados p {
+
+		font-size: 15px;
+	}
+	
+	.ContenidoCertificados1 {
+		float: right;
+		padding-left: 120px;
+		margin-top: -180px;
+	}
+	
+	.ContenidoCertificados2 {
+		float: right;
+		padding-left: 120px;
+		margin-top: 0px;
+	}
+	
+	.Foto2Cer {
+		margin-top: -460px;
+	}
+	
+	.Foto4Cer {
+		margin-top: -730px;
+	}
+	
+	
+}
+
+/* ///////////////////////////	    	GALERIA			//////////////////////////// */
+
+
+.Galeria img {
+	margin-top: 50px;
+}
+
+.Galeria img a {
+	height: 35%;
+	width: 30%;
+}
+
+
+/* ///////////////////////////	    	Títulos			//////////////////////////// */
+
+.Barras {
+	background:#FC8363;
+	margin-left:0px;
+	margin-top: 80px;
+	margin-bottom: 25px;
+	width:400px;
+	height: 5px;
+}
+
+.Titulos {
+	text-transform: uppercase; 				/* Genero mi texto en máyusculas */
+	font-weight: bold; 						/* Letras en negrita */
+	margin-bottom: 0px;
+	color: #F76D52;	
+	margin-left:-25px;
+	margin-top: 50px;
+}
+
+@media (max-width:600px){
+	.Barras {
+		display:none;
+	}
+	
+	.Titulos {
+		margin-left: 0px;
+		text-align: center;
+		margin-top: 50px;
+		margin-bottom: 50px;
+	}
+}
+
+/* ///////////////////////////	    	CONTACTO			//////////////////////////// */
+
+.FotoContactos {
+	width: 100%;
+	height: 400px;
+	margin-bottom: 50px;
+}
+
+.FormularioContacto h1{
+	color: #F48A71;							/* Color de las letras */
+	font-weight: bold; 						/* Letras en negrita */
+}
+
+.FormularioContacto p1{
+	color: #969696;							/* Color de las letras */
+	padding-bottom: 15px;
+	
+}
+
+.FormularioContacto input, textarea {
+	width: 40%;
+	margin: 10px 10px 10px 0;
+	border-radius: 5px;
+	border-color: #DCDCDC;
+}
+
+.FormularioContacto textarea {
+	width: 82%;
+	min-height: 150px;
+	max-height: 150px;
+	margin-top: 10px;
+}
+
+.FormularioContacto #boton {
+	background: #FFA688;
+	color:#fff;
+	border: none;
+    border-radius: 10px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	margin-left:150px;
+}
+
+.InformacionContacto h1{
+	color: #F48A71;							/* Color de las letras */
+	font-weight: bold; 						/* Letras en negrita */
+}
+
+.InformacionContacto p1{
+	color: #969696;							/* Color de las letras */
+}
+
+.ContenidoFormulario {
+	margin-top:20px;
+}
+
+
+											/* TABS */
+
+/* Títulos de los tabs */
+
+/* Bloque que almacena el contenido de mis tabs */
+.ui-tabs .ui-tabs-panel {
+	background: rgba(85,85,85,0.03)!important;
+	margin-left: 3px;
+    width: 330px;
+	height:280px;
+    padding: 5px 20px;
+}
+
+
+/* Clase con con la caja que almacena todos los tabs */
+.ui-tabs .ui-tabs-nav {	
+	border:none;
+	background:none;
+}
+
+
+/* Clase que me deja quitar los bordes de los tabs especificos*/
+.ui-tabs .ui-tabs-nav li {
+	border:none;
+}
+
+/* Clase que me deja quitar los bordes del tab seleccionado */
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+	border:none;
+}
+
+/* Clase para ver los margenes de los títulos de los tabs*/
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor { 
+	padding: 5px 17px!important;
+	/*background:rgba(150,150,150,0.1);*/
+}
+
+/* Clase de título deseleccionado */
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+	color:969696!important;
+	font-weight: bold; 						/* Letras en negrita */
+	
+}
+
+
+/* Contenido Tabs */ 
+
+
+.ui-widget.ui-widget-content {				/* Clase que permite generar una caja alrededor de los tabs*/
+	border:none!important;					/* Quito el borde de la caja */
+}
+
+/* Debo poner primero la clase de los tabs que no se seleccionan y luego la que se selecciona especificamente, porque sino, los dos tabs (seleccionado y no seleccionado) tomarán la propiedad de los no seleccionados por el orden. EL ORDEN IMPORTA, PRIMERO LO GENERAL LUEGO LO ESPECIFICO */
+
+/* Clase del tab no seleccionado*/
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited, a.ui-button, a:link.ui-button, a:visited.ui-button, .ui-button {
+	color:#969696!important;
+	/*background: rgba(150,150,150,0.1);*/
+}
+
+/* Clase de título seleccionado */
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+	color:#FFA688!important;
+	background: rgba(85,85,85,0.03);
+}
+
+
+/* Estilo de tabs con mis clases */
+
+.ContenidoTabs {
+}
+
+.ContenidoTabs p{
+	float: left;
+	color:#969696;
+	margin-top:30px;
+	
+}
+
+.ContenidoTabs img {
+	float: left;
+	margin-top:25px;
+	margin-right:25px;
+}
+
+
+
+
+@media (max-width:600px){
+	.FotoContactos {
+		width: 370px;
+		height: 250px;
+	}
+}
