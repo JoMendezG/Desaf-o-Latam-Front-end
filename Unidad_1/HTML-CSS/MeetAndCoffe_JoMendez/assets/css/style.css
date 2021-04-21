@@ -1,8 +1,16 @@
 body {
-    text-align: center;
     color: #000f08;
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+}
+
+nav {
+    position: fixed;
+    top: 0px;
+}
+
+#ubicacion {
+    text-align: center;
 }
 
 .oscuro {
@@ -22,6 +30,7 @@ body {
     color: #fff;
     padding: 50px;
     white-space: nowrap;
+    margin-top: 130px;
 }
 
 .hero-section {
@@ -29,10 +38,21 @@ body {
     background-image: url('../img/bg-hero.png');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 422px;
     color: #fff;
     /* posHorz posVer borderRadius o desenfoque Color */
     text-shadow: 0.125em 0.25em 0.125em #707070;
     padding: 3.125rem 3.125rem;
+}
+
+.hero-section h1 {
+    float: right;
+    margin-top: 50px;
+    width: 1200px;
+}
+
+.hero-section h2 {
+    float: right;
 }
 
 body * {
@@ -54,6 +74,11 @@ footer {
 .charla-texto,
 .evento {
     display: inline-block;
+}
+
+.charla-speaker {
+    height: 293px;
+    width: auto;
 }
 
 .centrado {
@@ -111,6 +136,7 @@ h4 h5 {
 }
 
 #eventos h2 {
+    text-align: center;
     margin-bottom: 1em;
 }
 
@@ -145,4 +171,62 @@ nav ul li {
 
 footer i {
     margin: 0 0.25em 0.5em 0.25em;
+}
+
+footer {
+    text-align: center;
+}
+
+img {
+    border-radius: 5px;
+}
+
+.imgWeWork {
+    margin-top: 150px;
+}
+
+.evento {
+    margin: 0 5%;
+}
+
+
+/* /////////////////////////////////////////////////////// */
+
+.SimposioSec {
+    margin: 200px 20%;
+}
+
+h2.SimposioSec {
+    margin-top: 200px;
+    text-align: left;
+}
+
+img.imgSimposio {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    width: 100%;
+    height: auto;
+}
+
+.simposioText {
+    text-align: left;
+    font: normal normal normal 25px/34px Open Sans;
+    letter-spacing: 0.5px;
+    color: #000F08;
+    opacity: 1;
+}
+
+p span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+h2.simposioSubtitulo {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+span.espacioParrafo {
+    display: block;
+    height: 50px;
 }
