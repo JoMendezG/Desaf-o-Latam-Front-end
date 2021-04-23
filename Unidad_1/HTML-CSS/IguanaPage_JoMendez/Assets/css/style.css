@@ -1,0 +1,142 @@
+body * {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: #000000;
+}
+
+h1.tituloNav {
+    font: normal normal medium 50px/59px Raleway;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: auto;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.tituloNav {
+    height: 73px;
+}
+
+img.iguanaHeader {
+    width: 100%;
+    height: auto;
+}
+
+
+/* ///////////////////////////////////////////////////////////////// */
+
+
+/* Descripcion */
+
+.desc-section {
+    height: 550px;
+    display: block;
+}
+
+p.textoInfoIguana {
+    float: left;
+    text-align: left;
+    font: normal normal 300 16px/25px Raleway;
+    font-size: 25px;
+    color: #ffffff;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 152px;
+}
+
+p span {
+    display: block;
+    margin-bottom: 20px;
+}
+
+img.iguanaTexto {
+    float: right;
+    width: 30%;
+    height: auto;
+    margin-right: 10%;
+    margin-top: 45px;
+    margin-bottom: 65px;
+    overflow: hidden;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+
+/* CARACTERISTICAS */
+
+.cafe-section {
+    background-color: #1E1A13;
+    height: 350px;
+}
+
+h1.tCaract {
+    font: normal normal lighter 40px/47px Raleway;
+    color: #ffffff;
+    text-align: center;
+    display: block;
+    font-size: 40px;
+    padding-top: 75px;
+}
+
+.iconos {
+    color: #ffffff;
+    list-style: none;
+    display: inline-block;
+    margin-top: 50px;
+}
+
+ul {
+    text-align: center;
+}
+
+li {
+    margin: 0 10%;
+}
+
+i {
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.iconos p {
+    margin-top: 20px;
+    text-align: center;
+    font: normal normal 300 25px/30px Raleway;
+    font-size: 40px;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+
+/* IGUANAS */
+
+img.imgIguanas {
+    width: 25%;
+    height: 300px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    text-align: center;
+    margin-right: 2%;
+}
+
+
+/* //////////////////////////////////////////////////////////////// */
+
+
+/* FOOTER */
+
+h1.footer-section {
+    font: normal normal 300 20px/24px Raleway;
+    color: #ffffff;
+    text-align: center;
+    background-color: #1E1A13;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
