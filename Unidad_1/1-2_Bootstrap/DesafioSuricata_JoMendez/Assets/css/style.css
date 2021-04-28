@@ -1,0 +1,53 @@
+h1 {
+    font: normal normal bold 60px/82px Open Sans;
+}
+
+.fondoRosado {
+    background-color: #E83E8C;
+}
+
+a.nav-link {
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+}
+
+nav,
+img.img-fluid {
+    height: 60px;
+    width: auto;
+}
+
+.metodoPago {
+    color: #fff;
+    background-color: #17A2B8;
+}
+
+.metodoPago i {
+    margin: 0 1%;
+}
+
+footer {
+    background-color: #E83E8C;
+}
+
+footer,
+img {
+    text-align: center;
+}
+
+img.img-fluid.my-5 {
+    height: 150px;
+    width: auto;
+}
+
+.card {
+    width: 90%;
+    height: auto;
+}
+
+@media only screen and (max-width: 600px) {
+    .metodoPago {
+        display: none;
+    }
+}
