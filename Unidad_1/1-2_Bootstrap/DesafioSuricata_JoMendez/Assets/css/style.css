@@ -2,6 +2,14 @@ h1 {
     font: normal normal bold 60px/82px Open Sans;
 }
 
+p {
+    font: normal normal normal 16px/24px Open Sans;
+}
+
+h5 {
+    font: normal normal bold 17px/23px Open Sans;
+}
+
 .fondoRosado {
     background-color: #E83E8C;
 }
@@ -42,7 +50,7 @@ img.img-fluid.my-5 {
 }
 
 .card {
-    width: 90%;
+    width: 80%;
     height: auto;
 }
 
