@@ -254,7 +254,25 @@
     </div>
 
     <!-- Formulario -->
-    <section id="contact" class="container my-5">
+    <div class="typeform-widget" data-url="https://form.typeform.com/to/lJqf9O47?typeform-medium=embed-snippet" style="width: 100%; height: 500px;"></div>
+    <script>
+        (function() {
+            var qs, js, q, s, d = document,
+                gi = d.getElementById,
+                ce = d.createElement,
+                gt = d.getElementsByTagName,
+                id = "typef_orm",
+                b = "https://embed.typeform.com/";
+            if (!gi.call(d, id)) {
+                js = ce.call(d, "script");
+                js.id = id;
+                js.src = b + "embed.js";
+                q = gt.call(d, "script")[0];
+                q.parentNode.insertBefore(js, q)
+            }
+        })()
+    </script>
+    <!-- <section id="contact" class="container my-5">
         <h2 class="fs-3 fw-bold text-center my-4"> Contáctame</h2>
         <p class="my-4 text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ad fugit molestias debitis id quaerat? Nobis optio fuga obcaecati doloribus, minus tenetur velit temporibus voluptas quasi eveniet architecto molestiae ratione maiores.</p>
 
@@ -274,7 +292,7 @@
             <button type="submit" class="btn btn-primary btn-info btn-lg">Enviar</button>
         </div>
 
-    </section>
+    </section> -->
 
     <footer class="bg-dark text-center text-light p-3">
         <p>Olivia Ros 2019. Todos los derechos reservados.</p>
