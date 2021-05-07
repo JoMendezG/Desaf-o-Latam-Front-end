@@ -1,0 +1,42 @@
+body {
+    font-size: 18px;
+}
+
+p {
+    font-size: 1em;
+}
+
+.container-fluid {
+    width: 80%;
+    margin: 0 10%;
+}
+
+.divisorTitulo {
+    background-color: black;
+    width: 100%;
+    height: 2px;
+}
+
+ul {
+    list-style: none;
+}
+
+.txtRojo {
+    padding-top: 100px;
+}
+
+button.btn.btn-outline-light {
+    margin-bottom: 100px;
+}
+
+.logoWeb {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
+
+h3.logoWeb {
+    color: white;
+    font-size: 30px;
+    font-family: 'Lobster', cursive;
+}
