@@ -1,5 +1,28 @@
-// Inicializar tooltip
-var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
-var tooltipList = tooltipTriggerList.map(function(tooltipTriggerEl) {
-    return new bootstrap.Tooltip(tooltipTriggerEl)
+ // Tooltip
+ $(document).ready(function(){
+    $('[data-toggle="tooltip"]').tooltip();
+  });
+
+
+$(document).ready(function() {
+    $('#miTooltip').tooltip('show')
+    $('#miAlerta').tooltip('show')
+
+
+    // Alerta
+    $('#miAlerta').click(function() {
+        alert('El correo fue enviado correctamente')
+    })
+
+    // Selector de etiqueta pintar a rojo
+    $('h4').on("dblclick", function() {
+        $(this).css({
+            "color": "red"
+        })
+    })
+
+    // Toggle Cards
+    $(".card-title").click(function() {
+        $(".card-text").toggle();
+    })
 })
