@@ -60,3 +60,10 @@ div.iconCol {
 img.imgCard {
     height: 80%;
 }
+
+li.footerIcon{
+    color: white;
+    list-style: none;
+    display: inline-block; 
+    margin: auto 0;
+}
