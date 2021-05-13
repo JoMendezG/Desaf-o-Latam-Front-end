@@ -7,6 +7,7 @@ body* {
 body {
     font-family: 'Ubuntu', sans-serif;
     background-color: black;
+    font-size: 18px;
 }
 
 html {
@@ -15,7 +16,7 @@ html {
 
 p {
     font-weight: lighter;
-    font-size: 1.125em;
+    font-size: 1rem;
     color: white;
     line-height: 1.6em;
 }
@@ -34,6 +35,7 @@ img.LogoNavbar {
     width: 10%;
 }
 
+
 nav.navbar-expand-lg{
     width: 90%;
     margin: 0 5%;
@@ -43,7 +45,7 @@ nav.navbar-expand-lg{
 }
 
 a.nav-link {
-    font-size: 24px;
+    font-size: 1.5em;
 }
 
 .divisorTitulo {
@@ -72,8 +74,33 @@ li.footerIcon{
     margin: auto 0;
 }
 
+#iconoFooter {
+    color: white;
+}
+
 @media only screen and (max-width: 600px) {
     div.navbar-brand {
         display: contents;
+    }
+
+    #iconoFooter {
+        font-size: 50px;
+    }
+
+    ul.my-3.ml-auto {
+        margin: 0 auto;
+        padding-left: 0px !important;
+    }
+
+  #txtFooter {
+      text-align: center;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+    body {
+        font-family: 'Ubuntu', sans-serif;
+        background-color: black;
+        font-size: 14px;
     }
 }
