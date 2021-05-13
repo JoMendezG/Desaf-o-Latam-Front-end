@@ -33,14 +33,21 @@ $(document).ready(function(){
     });
   })
 
-  
 
-$(document).ready(function() {
-    // Alerta
-    $('#miAlerta').click(function() {
-        alert('El correo fue enviado correctamente')
-    })
+// Alertas de RRSS
+// Se le coloca un nombre a las funciones y este nombre se coloca de la siguiente forma
+// En el html onclick="miAlertaRRSS()"
+function miAlertaRRSS() {
+    alert("EL Github de este sitio no está habilitado aún");
+  }
 
-})
-
+function miAlertaRRSS2() {
+    alert("EL Linkedin de este sitio no está habilitado aún");
+}
+function miAlertaRRSS3() {
+    alert("EL Twitter de este sitio no está habilitado aún");
+}
+function miAlertaRRSS4() {
+    alert("EL Facebook de este sitio no está habilitado aún");
+}
 
