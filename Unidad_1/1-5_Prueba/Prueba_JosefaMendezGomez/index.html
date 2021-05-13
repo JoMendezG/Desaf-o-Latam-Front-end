@@ -20,23 +20,23 @@
     <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark ">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img class="LogoNavbar image-fluid mr-4" src="assets/img/viajes.svg" alt="Logo viajes">Viajes Chiles</a>
+            <div class="navbar-brand" href="#"><img class="LogoNavbar image-fluid mr-md-4" src="assets/img/viajes.svg" alt="Logo viajes">Viajes Chiles</div>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto">
+            <ul class="navbar-nav ml-md-auto">
                <li class="nav-item active">
                 <a class="nav-link mr-4" href="#">Inicio <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link mr-4" href="#">Quienes Somos</a>
+                <a class="nav-link mr-4" href="#QuienesSomos">Quienes Somos</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link mr-4" href="#">Destacados</a>
+                <a class="nav-link mr-4" href="#Destacado">Destacados</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#" tabindex="-1" aria-disabled="true">Contacto</a>
+                <a class="nav-link" href="#Contacto" tabindex="-1" aria-disabled="true">Contacto</a>
                 </li>
             </ul>
             </div>
@@ -67,7 +67,7 @@
       </div>
 
     <!-- Quíenes somos -->
-    <section class="container-fluid">
+    <section id="QuienesSomos" class="container-fluid d-none d-md-block">
         <h2 class="text-white font-weight-light text-center mt-5">¿Quiénes somos?</h2>
         <div class="divisorTitulo mt-5"></div>
         <div class="row">
@@ -94,12 +94,12 @@
     </section>
 
     <!-- Destacados -->
-    <section class="container-fluid mb-5">
+    <section id="Destacado" class="container-fluid mb-5">
         <h2 class="text-white font-weight-light text-center mt-5">Destacados</h2>
         <div class="divisorTitulo mt-5"></div>
         <div class="row">
         <div class="col-md-3">
-            <div class="card bg-info border-white w-100 my-5" style="width: 18rem;">
+            <div class="card bg-info border-white w-100 my-md-5 my-3" style="width: 18rem;">
                 <img src="assets/img/card1.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
@@ -108,7 +108,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card bg-info border-white w-100 my-5" style="width: 18rem;">
+            <div class="card bg-info border-white w-100 my-md-5 my-3" style="width: 18rem;">
                 <img src="assets/img/card2.jpg" class="imgCard img-fluid card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
@@ -117,7 +117,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card bg-info border-white w-100 my-5" style="width: 18rem;">
+            <div class="card bg-info border-white w-100 my-md-5 my-3" style="width: 18rem;">
                 <img src="assets/img/card3.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
@@ -126,7 +126,7 @@
             </div>
         </div>
         <div class="col-md-3">
-            <div class="card bg-info border-white w-100 my-5" style="width: 18rem;">
+            <div class="card bg-info border-white w-100 my-md-5 my-3" style="width: 18rem;">
                 <img src="assets/img/card4.jpg" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h4 class="card-title">Lorem ipsum dolor sit amet</h4>
@@ -138,7 +138,7 @@
     </section>
 
     <!-- Contacto -->
-    <section class="container-fluid mt-5">
+    <section id="Contacto" class="container-fluid mt-5">
         <h2 class="text-white font-weight-light text-center mt-5">Contacto</h2>
         <div class="divisorTitulo my-5"></div>
         <div class="row">
@@ -149,25 +149,22 @@
     <!-- Footer RRSS -->
     <footer class="container-fluid bg-info py -2 mt-5 w-100 mx-auto">
         <div class="row">
-            <h3 class="my-3 text-white pl-5" style="margin-left: 5%;">VIAJES CHILE</h3>
+            <h3 class="my-3 text-white pl-5 align-middle" style="margin-left: 5%;">VIAJES CHILE</h3>
             <ul class="my-3 ml-auto" style="margin-right: 5%;">
                 <li class="footerIcon mx-3">
-                    <i class="fab fa-github-square fa-3x"></i>
+                   <a href="" id="miAlerta" role="alert"> <i class="fab fa-github-square fa-3x"></i></a>
                  </li>
                  <li class="footerIcon mx-3">
-                    <i class="fab fa-linkedin fa-3x"></i>
+                   <a href=""><i class="fab fa-linkedin fa-3x"></i></a> 
                  </li>
                  <li class="footerIcon mx-3">
-                    <i class="fab fa-twitter-square fa-3x"></i>
+                    <a href=""><i class="fab fa-twitter-square fa-3x"></i></a>                    
                  </li>
                  <li class="footerIcon ml-3">
-                    <i class="fab fa-facebook-square fa-3x"></i>
+                     <a href=""><i class="fab fa-facebook-square fa-3x"></i></a> 
                  </li>
              </ul>
     </footer>
-
-    <!-- Comentario prueba commit and push -->
-    <!-- Comentario prueba commit and push2 -->
 
     <!-- Mi JS -->
     <script src="assets/js/script.js"></script>

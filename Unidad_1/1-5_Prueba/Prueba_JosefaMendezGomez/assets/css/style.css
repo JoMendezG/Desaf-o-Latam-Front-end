@@ -9,9 +9,13 @@ body {
     background-color: black;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 p {
     font-weight: lighter;
-    font-size: 18px;
+    font-size: 1.125em;
     color: white;
     line-height: 1.6em;
 }
@@ -66,4 +70,10 @@ li.footerIcon{
     list-style: none;
     display: inline-block; 
     margin: auto 0;
+}
+
+@media only screen and (max-width: 600px) {
+    div.navbar-brand {
+        display: contents;
+    }
 }
