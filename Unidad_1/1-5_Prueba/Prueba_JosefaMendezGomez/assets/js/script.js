@@ -51,3 +51,8 @@ function miAlertaRRSS4() {
     alert("EL Facebook de este sitio no está habilitado aún");
 }
 
+
+// Función para activar los modales, se usa una vez
+$('#myModal').on('shown.bs.modal', function () {
+    $('#myInput').trigger('focus')
+  })
