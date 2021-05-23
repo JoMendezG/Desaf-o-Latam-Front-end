@@ -5,64 +5,90 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafío_Tía_Tomate-Josefa_Méndez_Gómez</title>
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,200&display=swap" rel="stylesheet">
+    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     
-    <header class="header">
-        <nav class="navigationbar navbar-light bg-light">
+    <header class="header container-fluid">
+        <nav class="navigationbar navbar-light py-3 pl-5">
             <img class="navigationbar__img" src="assets/img/logo_header.png" alt="">
         </nav>
     </header>
     
     <main>
         <!-- Header rojo -->
-        <section>
-            <h1>De nuestro carillo <br> <b>A TU MESA</b></h1>
+        <section class="section-red">
+            <h1 class="section-red__title container display-3">De nuestro cariño <br> <b class="section-red__Bold">A TU MESA</b></h1>
         </section>
 
         <!-- Foto tomates y bajada -->
-        <section>
-            <img src="assets/img/about-1.png" alt="">
-            <h3><b>Tomates 100% orgánicos</b></h3>
-            <p>En tía tomate estamos comprometidos con tu salud y la de tu familia, de modo que probarás tomates ricos y sin sabor artificial</p>
-            <p>Para darle vida nuestros productos usamos materias primas orgánicas y que estén en completo equilibrio con la naturaleza. Así que al comprar cualquier tipo de tomate con nosotros te asegurarás de que comerás la mejor calidad de tomates limachinos.</p>
+        <section class="organic-section">
+            <div class="container">
+                <img class="organic-section__image " src="assets/img/about-1.png" alt="">
+                <h3 class="organic-section__title display-4" ><b>Tomates 100% orgánicos</b></h3>
+                <br>
+                <p class="organic-section__text">En tía tomate estamos comprometidos con tu salud y la de tu familia, de modo que probarás tomates ricos y sin sabor artificial</p>
+                <br>
+                <p class="organic-section__text organic-section__text-last-line">Para darle vida nuestros productos usamos materias primas orgánicas y que estén en completo equilibrio con la naturaleza. Así que al comprar cualquier tipo de tomate con nosotros te asegurarás de que comerás la mejor calidad de tomates limachinos.</p>    
+                <br>
+                <br>
+            </div>
         </section>
 
         <!-- Tomates rojos - Desde limache con amor -->
-        <section>
-            <img src="assets/img/about-2.png" alt="">
-            <h3>Desde limache con amor</h3>
-            <p>Los tomates que estás a punto de comprar son nacidos y criados en una de las mejores zonas para la producción de tomates de Chile. El proceso que conlleva criar estos tomates toma alrededir de tres meses de muchos cariños y cuidados</p>
-            <p>Los tomates toma todos los nutrientes de esa hermosa tierra para que luego tú los disfrutes en cualquier ocasión.</p>
+        <section class="limache-section">
+            <div class="container">
+                <img class="limache-section__img" src="assets/img/about-2.png" alt="">
+                <h3 class="limache-section__title display-4">Desde limache con amor</h3>
+                <br>
+                <p class="limache-section__text">Los tomates que estás a punto de comprar son nacidos y criados en una de las mejores zonas para la producción de tomates de Chile. El proceso que conlleva criar estos tomates toma alrededir de tres meses de muchos cariños y cuidados</p>
+                <br>
+                <p class="limache-section__text">Los tomates toma todos los nutrientes de esa hermosa tierra para que luego tú los disfrutes en cualquier ocasión.</p>    
+                <br>
+                <br>
+            </div>
         </section>
 
         <!-- Nosotros TEXTO-->
-        <section>
-            <h1>NOSOTROS</h1>
+        <section class="aboutus-section">
+            <h1 class="aboutus-section__title display-1">NOSOTROS</h1>
         </section>
 
         <!-- Fotos nosotros -->
-        <section>
-            <img src="assets/img/about-3.png" alt="">
-            <h3>Javiera Kunstmann</h3>
-            <p>Javiera es la orgullosa dueña de Tia tomate. Nacida y criada en Limache se siente tan agusto aquí como los tomates que cosecho</p>
-            <p>Ella es la encargada administrativa de Tía tomate y estará muy a gusto que la contactes para probar la mejor calidad de tomates de todo Limache</p>
-            <p>Javiera y su marido llevan más de 15 alos en el rubro ofreciendo la mejor calidad en tomates y desde el 2015 comenzaron con la producción de tomates orgánicos limachinos</p>
-            <img src="assets/img/about-4.png" alt="">
-            <h3>Roberto Pacheco</h3>
-            <p>Roberto es el marido de Javiera. Él es el encargado de darle vida a los tomates, usando su vasta experiencia en la agricultura ha sabido seleccionar las mejores cepas de tomates para su cria y cosecha</p>
-        </section>
+        <section class="people-section">
+            <div class="container">
+                <img class="people-section__img" src="assets/img/about-3.png" alt="">
+                <h3 class="people-section__title display-4">Javiera Kunstmann</h3>
+                <br>
+                <p class="people-section__txt">Javiera es la orgullosa dueña de Tia tomate. Nacida y criada en Limache se siente tan agusto aquí como los tomates que cosecho</p>
+                <br>
+                <p class="people-section__txt">Ella es la encargada administrativa de Tía tomate y estará muy a gusto que la contactes para probar la mejor calidad de tomates de todo Limache</p>
+                <br>
+                <p class="people-section__txt">Javiera y su marido llevan más de 15 alos en el rubro ofreciendo la mejor calidad en tomates y desde el 2015 comenzaron con la producción de tomates orgánicos limachinos</p>
+                <img class="people-section__img" src="assets/img/about-4.png" alt="">
+                <h3 class="people-section__title display-4" >Roberto Pacheco</h3>
+                <br>
+                <p class="people-section__txt">Roberto es el marido de Javiera. Él es el encargado de darle vida a los tomates, usando su vasta experiencia en la agricultura ha sabido seleccionar las mejores cepas de tomates para su cria y cosecha</p>    
+                <br>
+                <br>
+            </div>
+            </section>
 
         <!-- Tomates para tu negocio -->
-        <section>
-            <h1>¿Tomates para tu negocio?</h1>
-            <button type="button" class="btn btn-primary btn-lg">CLICK AQUÍ</button>
+        <section class="btn-section">
+            <h1 class="btn-section__title display-3">¿Tomates para tu negocio?</h1>
+            <button type="button" class="btn-section__button btn mx-auto d-block">CLICK AQUÍ</button>
+            <br>
+            <br>
         </section>
     </main>
 
-    <footer>
-        <img src="assets/img/logo_footer.png" alt="">
+    <footer class="footer-section">
+        <img class="footer-section__img"  src="assets/img/logo_footer.png" alt="">
     </footer>
 </body>
 </html>

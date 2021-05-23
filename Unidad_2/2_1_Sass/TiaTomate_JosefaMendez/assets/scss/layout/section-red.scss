@@ -1,0 +1,12 @@
+.section-red {
+    background-color: $Jelly_bean;
+    &__title {
+        padding:10% 0;
+        color: $White;
+        text-align: center;
+        font-weight: $exlight;
+    }
+    &__Bold {
+        font-weight: $bold;
+    }
+}

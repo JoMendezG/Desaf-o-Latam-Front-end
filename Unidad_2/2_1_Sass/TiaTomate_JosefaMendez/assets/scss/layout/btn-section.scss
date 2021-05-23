@@ -1,0 +1,20 @@
+.btn-section {
+background-color: $Jelly_bean;
+    &__title {
+        color: $White;
+        text-align: center;
+        font-weight: $bold;
+       padding-top: 3%;
+    }
+
+    &__button {
+        background-color: $White;
+        color: $Taupe_Gray;
+        font-weight: $bold;
+        font-size: 50px;
+        width: 20%;
+        height: 80px;
+        margin-top: 50px;
+        border-radius: 50px;
+    }
+}

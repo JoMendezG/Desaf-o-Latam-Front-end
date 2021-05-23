@@ -9928,5 +9928,132 @@ h3 {
     border-color: #dee2e6;
   }
 }
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+.container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
+  width: 90%;
+  margin: 0 5%;
+}
+
+.section-red {
+  background-color: #E56353;
+}
+.section-red__title {
+  padding: 10% 0;
+  color: #FFF;
+  text-align: center;
+  font-weight: 200;
+}
+.section-red__Bold {
+  font-weight: 800;
+}
+
+.organic-section {
+  background-color: #91918D;
+}
+.organic-section__image {
+  padding-top: 5%;
+  width: 100%;
+}
+.organic-section__title {
+  color: #FFF;
+  text-align: center;
+  padding-top: 50px;
+  font-weight: 400;
+}
+.organic-section__text {
+  color: #FFF;
+  font-weight: 400;
+  margin: 0 10%;
+  font-size: 18px;
+}
+
+.limache-section {
+  background-color: #FAFAFA;
+}
+.limache-section__img {
+  padding-top: 5%;
+  width: 100%;
+}
+.limache-section__title {
+  color: #686963;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 800;
+}
+.limache-section__text {
+  color: #686963;
+  font-weight: 400;
+  margin: 0 10%;
+  font-size: 18px;
+}
+
+.aboutus-section {
+  background-color: #E56353;
+}
+.aboutus-section__title {
+  text-align: center;
+  color: #FFF;
+  font-weight: 800;
+  padding: 5% 0;
+}
+
+.people-section {
+  background-color: #FAFAFA;
+}
+.people-section__img {
+  padding-top: 5%;
+  display: block;
+  margin: 0 auto;
+  width: 40%;
+}
+.people-section__title {
+  color: #686963;
+  padding-top: 50px;
+  text-align: center;
+  font-weight: 800;
+}
+.people-section__txt {
+  color: #686963;
+  font-weight: 400;
+  margin: 0 10%;
+  font-size: 18px;
+}
+
+.btn-section {
+  background-color: #E56353;
+}
+.btn-section__title {
+  color: #FFF;
+  text-align: center;
+  font-weight: 800;
+  padding-top: 3%;
+}
+.btn-section__button {
+  background-color: #FFF;
+  color: #91918D;
+  font-weight: 800;
+  font-size: 50px;
+  width: 20%;
+  height: 80px;
+  margin-top: 50px;
+  border-radius: 50px;
+}
+
+.footer-section {
+  background-color: #91918D;
+}
+.footer-section__img {
+  width: 20%;
+  display: block;
+  padding: 3%;
+  margin: 0 auto;
+}
+
+.navigationbar__img {
+  width: 15%;
+}
 
 /*# sourceMappingURL=style.css.map */

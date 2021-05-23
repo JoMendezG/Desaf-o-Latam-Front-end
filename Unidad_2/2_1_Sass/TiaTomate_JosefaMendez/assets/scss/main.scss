@@ -2,15 +2,25 @@
 
 //Método 7-1
 // Utilities = variables / mixins
+@import "utilities/variables.scss";
 
 // Vendors
 
 // Base = reseat / typography / base
+@import "base/typography.scss";
 
 // Layout = header / main section / forms
+@import "layout/container.scss";
+@import "layout/section-red.scss";
+@import "layout/organic-section.scss";
+@import "layout/limache-section.scss";
+@import "layout/aboutus-section.scss";
+@import "layout/people-section.scss";
+@import "layout/btn-section.scss";
+@import "layout/footer-section";
 
 // Components = buttons / layout
-@import "components/navbar.scss"
+@import "components/navbar.scss";
 
 // Views = 
 

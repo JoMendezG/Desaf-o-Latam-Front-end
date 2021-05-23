@@ -1,0 +1,9 @@
+.aboutus-section {
+    background-color:$Jelly_bean;
+    &__title {
+        text-align: center;
+        color: $White;
+        font-weight: $bold;
+        padding: 5% 0;
+    }
+}

@@ -1,0 +1,22 @@
+.organic-section {
+    background-color: $Taupe_Gray;
+
+    &__image {
+        padding-top: 5%;
+        width: 100%;
+    }
+
+    &__title {
+        color: $White;
+        text-align: center;
+        padding-top: 50px;
+        font-weight: $regular;
+    }
+
+    &__text {
+        color: $White;
+        font-weight: $regular;
+        margin: 0 10%;
+        font-size: 18px;
+    }
+}

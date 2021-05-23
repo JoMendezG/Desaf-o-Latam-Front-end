@@ -1,0 +1,22 @@
+.limache-section {
+    background-color: $Snow;
+
+    &__img {
+        padding-top: 5%;
+        width: 100%;
+    }
+
+    &__title {
+        color: $Granite_gray;
+        padding-top: 50px;
+        text-align: center;
+        font-weight: $bold;
+    }
+
+    &__text {
+        color: $Granite_gray;
+        font-weight: $regular;
+        margin: 0 10%;
+        font-size: 18px;
+    }
+}
