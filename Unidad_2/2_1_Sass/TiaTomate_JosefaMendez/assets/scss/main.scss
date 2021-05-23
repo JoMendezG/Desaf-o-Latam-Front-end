@@ -1,17 +1,2 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-
-//Método 7-1
-// Utilities = variables / mixins
-
-// Vendors
-
-// Base = reseat / typography / base
-
-// Layout = header / main section / forms
-
-// Components = buttons / layout
-@import "components/navbar.scss"
-
-// Views = 
-
-// Themes =
+@import "components/navbar.scss";
