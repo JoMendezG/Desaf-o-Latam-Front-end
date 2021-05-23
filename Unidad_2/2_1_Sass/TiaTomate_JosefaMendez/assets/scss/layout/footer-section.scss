@@ -8,3 +8,14 @@
         margin: 0 auto;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .footer-section {
+        background-color: $Taupe_Gray;
+    
+        &__img {
+            width: 50%;
+          
+        }
+    }  
+}

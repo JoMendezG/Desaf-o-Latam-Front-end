@@ -1,6 +1,13 @@
 .navigationbar {
     &__img {
-        width: 15%;
-        
+        width: 15%;  
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .navigationbar {
+        &__img {
+            width: 80%;  
+        }
     }
 }

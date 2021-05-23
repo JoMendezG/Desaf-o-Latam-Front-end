@@ -18,3 +18,15 @@ background-color: $Jelly_bean;
         border-radius: 50px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .btn-section {   
+            &__button {
+                font-size: 16px;
+                width: 50%;
+                height: 60px;
+                margin-top: 50px;
+                border-radius: 50px;
+            }
+        }  
+}
