@@ -1,4 +1,7 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
 // Utilities
-@import "utilities/variables.scss"
+@import "utilities/variables.scss";
+
+// Components 
+@import "components/navbar-component.scss";

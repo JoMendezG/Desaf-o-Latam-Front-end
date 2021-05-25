@@ -9928,5 +9928,9 @@ h3 {
     border-color: #dee2e6;
   }
 }
+.barberBanner_navbar__logo {
+  height: 50px;
+  margin: 15px 30px;
+}
 
 /*# sourceMappingURL=style.css.map */
