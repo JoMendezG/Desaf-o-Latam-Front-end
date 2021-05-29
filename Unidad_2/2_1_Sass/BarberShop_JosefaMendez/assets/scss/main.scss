@@ -1,6 +1,10 @@
 // Utilities
 @import "utilities/variables.scss";
 
+// base
+@import "base/typography.scss";
+@import "base/reset.scss";
+
 // Layout
 @import "layout/banner.scss";
 

@@ -1,15 +1,73 @@
-body,
-html {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-    background-color: pink;
+.banner {
+    position: relative;
+    background-image: url("../../assets/img/post-image.jpg");
+    background-size: cover;
+    height: 600px;
+    overflow: hidden;
+
+    &__title {
+        font-family: Titulos;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        color: white;
+        width: 80%;
+        font-size: 42;
+    }
 }
 
-.baner {
-    position: relative;
-    height: 500px;
-    overflow: hidden;
-    background: url(../../img/naomi-thai.png) no-repeat center;
-    background-size: cover;
+@media only screen and (max-width: 600px) {
+    .banner {
+        height: 600px;
+
+        &__title {
+            font-size: 42px;
+        }
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .banner {
+        height: 600px;
+
+        &__title {
+            font-size: 68px;
+        }
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    .banner {
+        height: 768px;
+
+        &__title {
+            font-size: 87px;
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .banner {
+        height: 992px;
+
+        &__title {
+            font-size: 106px;
+        }
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .banner {
+        height: 1200px;
+
+        &__title {
+            font-size: 200px;
+        }
+    }
 }
