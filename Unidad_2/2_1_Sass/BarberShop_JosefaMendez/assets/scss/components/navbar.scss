@@ -1,0 +1,14 @@
+.navbar {
+    background-color: $dark;
+
+    &__logo {
+        width: 25%;
+    }
+}
+
+.navbar-toggler {
+    &--burguer {
+        span {
+        }
+    }
+}

@@ -1,0 +1,15 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: pink;
+}
+
+.baner {
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+    background: url(../../img/naomi-thai.png) no-repeat center;
+    background-size: cover;
+}
