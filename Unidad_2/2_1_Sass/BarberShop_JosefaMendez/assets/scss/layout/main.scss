@@ -1,0 +1,53 @@
+.contentBS {
+    &__subTitle {
+        font-family: subtitulos;
+        color: $Raisin_Black;
+        font-size: 16px;
+        margin: 45px 0;
+    }
+
+    &__text {
+        line-height: 40px;
+    }
+
+    &__botones {
+        margin: 90px 0;
+    }
+
+    button,
+    &__btn {
+        background-color: $Nickel;
+        color: white;
+        border-radius: 50px;
+        font-size: 16px;
+    }
+
+    button,
+    &__btn--derecho {
+        margin-right: 10px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .contentBS {
+        &__subTitle {
+            font-size: 18px;
+        }
+
+        &__text {
+            font-size: 18px;
+        }
+
+        button,
+        &__btn {
+            font-size: 18px;
+        }
+
+        button,
+        &__btn,
+        &__btn--derecho {
+            margin-right: 25px;
+        }
+    }
+}
