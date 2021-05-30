@@ -1,0 +1,40 @@
+.page-link {
+    color: $Eerie_Black !important;
+}
+
+a.page-link {
+    height: 45px;
+    margin-top: 50px !important;
+}
+
+.page-item:last-child .page-link {
+    vertical-align: middle;
+    height: 45px;
+    border-radius: 0 50px 50px 0 !important;
+    padding-right: 20px !important;
+}
+
+.page-item:first-child .page-link {
+    color: $Nickel !important;
+    vertical-align: middle;
+    height: 45px;
+    border-radius: 50px 0 0 50px !important;
+    padding-left: 20px !important;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    a.page-link {
+        height: 60px;
+        font-size: 25px !important;
+        padding: 0 20px !important;
+    }
+
+    .page-item:last-child .page-link {
+        height: 60px;
+    }
+
+    .page-item:first-child .page-link {
+        height: 60px;
+    }
+}

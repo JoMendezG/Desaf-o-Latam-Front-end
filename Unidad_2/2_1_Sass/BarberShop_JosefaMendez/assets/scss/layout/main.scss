@@ -26,6 +26,13 @@
     &__btn--derecho {
         margin-right: 10px;
     }
+
+    &__divition {
+        height: 1px;
+        width: 100%;
+        background-color: $Nickel;
+        margin-bottom: 60px;
+    }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */

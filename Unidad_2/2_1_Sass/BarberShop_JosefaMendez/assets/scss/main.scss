@@ -9,9 +9,13 @@
 @import "layout/banner.scss";
 @import "layout/container.scss";
 @import "layout/main.scss";
+@import "layout/naomi_section";
+@import "layout/pages.scss";
+@import "layout/footer.scss";
 
 // Components
 @import "components/navbar.scss";
+@import "components/pagination.scss";
 
 //Bootstrap 4
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";

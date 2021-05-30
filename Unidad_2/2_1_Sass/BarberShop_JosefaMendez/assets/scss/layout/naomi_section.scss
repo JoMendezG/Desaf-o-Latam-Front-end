@@ -1,0 +1,60 @@
+.naomi {
+    img,
+    &__img {
+        display: block;
+        width: 130px;
+        height: 130px;
+        margin: 0 auto;
+        border-radius: 150px;
+        border: $Nickel solid 1px;
+    }
+
+    &__title {
+        color: $Eerie_Black;
+        font-family: Titulos;
+        text-align: center;
+        margin: 20px 0;
+    }
+
+    &__text {
+        text-align: center;
+        color: $Fuzzy_Wuzzy;
+        line-height: 15px;
+    }
+
+    &__content {
+        display: none;
+        margin-bottom: 90px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .naomi {
+        img,
+        &__img {
+            display: block;
+            width: 180px;
+            height: 180px;
+            margin-right: auto;
+        }
+
+        &__title {
+            float: left;
+            display: block;
+        }
+
+        &__text {
+            float: left;
+            display: block;
+            width: 100%;
+            text-align: left;
+        }
+
+        &__content {
+            display: block;
+            width: 100%;
+            line-height: 40px;
+        }
+    }
+}
