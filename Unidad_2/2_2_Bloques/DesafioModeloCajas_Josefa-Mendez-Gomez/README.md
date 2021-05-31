@@ -19,28 +19,30 @@ Dado el código html entregado:</li>
 <ul>
 <li>Agregar 4 cajas distribuidas horizontalmente con clase .box, con un width de 25% y padding de 5px y luego evita el desborde de los elementos recalculando los elementos.</li>
 <li>Agregar texto e imágenes a cada caja, de acuerdo al siguiente ejemplo:</li>
+![Captura de pantalla 2021-05-31 123057](https://user-images.githubusercontent.com/37412612/120221258-143efb00-c20c-11eb-9694-fbe3367397bb.jpg)
+
 <li>Agregar una barra de navegación fija con clase .navbar en el borde superior, que ocupe el 100% del ancho. Luego agregar texto y un color de fondo verde, tal como se muestra en el siguiente ejemplo:</li>
 </ul>
 <ol start="2">
 <li>
-<p>><b>Desafío 2:</b><br>
+<p><b>Desafío 2:</b><br>
 Dado el código html entregado, se debe lograr llegar al siguiente resultado:</p>
 </li>
 <li>
-<p>><b>Desafío 3:</b><br>
+<p><b>Desafío 3:</b><br>
 Utilizando HTML, CSS y las propiedades aprendidas de posicionamiento y, dibuja las siguientes banderas:</p>
 </li>
 <li>
-<p>><b>Desafío 4:</b><br>
+<p><b>Desafío 4:</b><br>
 Dado el código html entregado, utilizar position realiza las modificaciones necesarias, considerando buenas prácticas de CSS, para que los elementos se muestren tal como lo muestra la siguiente imagen:</p>
 </li>
 <li>
-<p>><b>Desafío 5:</b><br>
+<p><b>Desafío 5:</b><br>
 Utilizando position diseña el siguiente HTML en función de la figura que se presenta a continuación:<br>
 El objetivo de este ejercicio es que puedas incorporar el ribbon ejercicio-5_oferta.png en la esquina superior izquierda sobre la foto del producto.</p>
 </li>
 <li>
-<p>><b>Desafío 6:</b><br>
+<p><b>Desafío 6:</b><br>
 Utilizando CSS confecciona el siguiente HTML:<br>
 El objetivo es posicionar el ribbon de despacho en 48 horas en la esquina inferior derecha de la foto del producto. Hint: utilizar position: relative y position: absolute.</p>
 </li>
@@ -50,11 +52,11 @@ Agregar el siguiente ribbon ejercicio-7_awwwards.png en la esquina superior dere
 El posicionamiento debe estar relacionado al viewport.</p>
 </li>
 <li>
-<p>><b>Desafío 8:</b><br>
+<p><b>Desafío 8:</b><br>
 Dado el código html entregado, realizar las modificaciones necesarias para llegar al siguiente resultado:</p>
 </li>
 <li>
-<p>><b>Desafío 9:</b><br>
+<p><b>Desafío 9:</b><br>
 Construir el siguiente layout utilizando propiedades de distribución del modelo de cajas y floats en CSS:</p>
 </li>
 </ol>
