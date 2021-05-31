@@ -23,6 +23,7 @@
   margin-top: 35px;
 }
 .navbarA__botones {
+  margin-top: 25px;
   float: right;
 }
 .navbarA__btn--secundario {
@@ -30,6 +31,33 @@
 }
 .navbarA__btn--primario {
   border: none;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+.content__img1 {
+  display: inline;
+  width: 72%;
+}
+.content__nombreWeb {
+  width: 27%;
+  display: inline-block;
+  height: 700px;
+}
+.content h1, .content__Nombre {
+  font-family: "PT Mono", monospace;
+  font-size: 130px;
+  margin-left: 10%;
+  margin-bottom: 0px;
+}
+.content p, .content__subNombre {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  margin-left: 10%;
 }
 
 button.navbarA__btn--primario {
