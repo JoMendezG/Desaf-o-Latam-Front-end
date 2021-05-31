@@ -19,7 +19,7 @@ Dado el código html entregado:</li>
 <ul>
 <li>Agregar 4 cajas distribuidas horizontalmente con clase .box, con un width de 25% y padding de 5px y luego evita el desborde de los elementos recalculando los elementos.</li>
 <li>Agregar texto e imágenes a cada caja, de acuerdo al siguiente ejemplo:</li>
-![Captura de pantalla 2021-05-31 123057](https://user-images.githubusercontent.com/37412612/120221258-143efb00-c20c-11eb-9694-fbe3367397bb.jpg)
+![Capturadepantalla2021-05-31123057](https://user-images.githubusercontent.com/37412612/120221258-143efb00-c20c-11eb-9694-fbe3367397bb.jpg)
 
 <li>Agregar una barra de navegación fija con clase .navbar en el borde superior, que ocupe el 100% del ancho. Luego agregar texto y un color de fondo verde, tal como se muestra en el siguiente ejemplo:</li>
 </ul>
