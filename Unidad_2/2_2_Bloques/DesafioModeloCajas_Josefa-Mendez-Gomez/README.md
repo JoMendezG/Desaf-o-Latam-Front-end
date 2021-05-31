@@ -23,38 +23,38 @@ Dado el código html entregado:</li>
 </ul>
 <ol start="2">
 <li>
-<h5>Desafío 2:<br>
+<p>><b>Desafío 2:</b><br>
 Dado el código html entregado, se debe lograr llegar al siguiente resultado:</p>
 </li>
 <li>
-<p>Desafío 3:<br>
+<p>><b>Desafío 3:</b><br>
 Utilizando HTML, CSS y las propiedades aprendidas de posicionamiento y, dibuja las siguientes banderas:</p>
 </li>
 <li>
-<p>Desafío 4:<br>
+<p>><b>Desafío 4:</b><br>
 Dado el código html entregado, utilizar position realiza las modificaciones necesarias, considerando buenas prácticas de CSS, para que los elementos se muestren tal como lo muestra la siguiente imagen:</p>
 </li>
 <li>
-<p>Desafío 5:<br>
+<p>><b>Desafío 5:</b><br>
 Utilizando position diseña el siguiente HTML en función de la figura que se presenta a continuación:<br>
 El objetivo de este ejercicio es que puedas incorporar el ribbon ejercicio-5_oferta.png en la esquina superior izquierda sobre la foto del producto.</p>
 </li>
 <li>
-<p>Desafío 6:<br>
+<p>><b>Desafío 6:</b><br>
 Utilizando CSS confecciona el siguiente HTML:<br>
 El objetivo es posicionar el ribbon de despacho en 48 horas en la esquina inferior derecha de la foto del producto. Hint: utilizar position: relative y position: absolute.</p>
 </li>
 <li>
-<p>Desafío 7:<br>
+<p>><b>Desafío 7:</b><br>
 Agregar el siguiente ribbon ejercicio-7_awwwards.png en la esquina superior derecha de un documento HTML como se muestra en la figura que se presenta a continuación:<br>
 El posicionamiento debe estar relacionado al viewport.</p>
 </li>
 <li>
-<p>Desafío 8:<br>
+<p>><b>Desafío 8:</b><br>
 Dado el código html entregado, realizar las modificaciones necesarias para llegar al siguiente resultado:</p>
 </li>
 <li>
-<p>Desafío 9:<br>
+<p>><b>Desafío 9:</b><br>
 Construir el siguiente layout utilizando propiedades de distribución del modelo de cajas y floats en CSS:</p>
 </li>
 </ol>
