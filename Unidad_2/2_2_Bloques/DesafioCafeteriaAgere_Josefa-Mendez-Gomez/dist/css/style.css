@@ -1,0 +1,56 @@
+.container-fluid {
+  width: 80%;
+  margin: 0 10%;
+}
+
+.navbarA {
+  display: block;
+  margin-top: 50px;
+  height: 100px;
+  margin-bottom: 50px;
+}
+.navbarA__logo {
+  float: left;
+  width: 70px;
+  margin-right: 100px;
+}
+.navbarA__menu {
+  font-family: "PT Mono", monospace;
+  font-size: 18px;
+  color: #a2a2a2;
+  float: left;
+  margin-left: 50px;
+  margin-top: 35px;
+}
+.navbarA__botones {
+  float: right;
+}
+.navbarA__btn--secundario {
+  margin-right: 30px;
+}
+.navbarA__btn--primario {
+  border: none;
+}
+
+button.navbarA__btn--primario {
+  background-color: #4ca866;
+  height: 40px;
+  width: 180px;
+  font-size: 16px;
+  font-family: "PT Mono", monospace;
+  font-size: 16px;
+  color: white;
+}
+
+button.navbarA__btn--secundario {
+  background-color: white;
+  height: 40px;
+  width: 180px;
+  font-size: 16px;
+  font-family: "PT Mono", monospace;
+  font-size: 16px;
+  color: #a2a2a2;
+  border-color: #a2a2a2;
+}
+
+/*# sourceMappingURL=style.css.map */
