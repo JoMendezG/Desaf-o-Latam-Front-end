@@ -10,7 +10,7 @@
 
 <body class="stackedit">
   <div class="stackedit__html"><h1 id="github-pages">Github pages</h1>
-<p><a href="https://josefamendezpruebaunodl.ga/Unidad_2/2_2_Bloques/DesafioModeloCajas_Josefa-Mendez-Gomez/">Vista del proyecto</a></p>
+<p><a href="https://josefamendezpruebaunodl.ga/Unidad_2/2_2_Bloques/DesafioCafeteriaAgere_Josefa-Mendez-Gomez/">Vista del proyecto</a></p>
 <h1 id="desafíos">Desafíos</h1>
 <ol>
   <li><b>Desafío 1:</b><br>
