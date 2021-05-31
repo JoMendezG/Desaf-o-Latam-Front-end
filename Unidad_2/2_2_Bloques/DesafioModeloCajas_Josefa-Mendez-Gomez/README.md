@@ -13,7 +13,7 @@
 <p><a href="https://josefamendezpruebaunodl.ga/Unidad_2/2_2_Bloques/DesafioModeloCajas_Josefa-Mendez-Gomez/">Vista del proyecto</a></p>
 <h1 id="desafíos">Desafíos</h1>
 <ol>
-  <li><h3><b>Desafío 1:</b></h3><br>
+  <li><b>Desafío 1:</b><br>
 Dado el código html entregado:</li>
 </ol>
 <ul>
@@ -23,7 +23,7 @@ Dado el código html entregado:</li>
 </ul>
 <ol start="2">
 <li>
-<p>Desafío 2:<br>
+<h5>Desafío 2:<br>
 Dado el código html entregado, se debe lograr llegar al siguiente resultado:</p>
 </li>
 <li>
