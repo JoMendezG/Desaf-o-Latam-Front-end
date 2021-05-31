@@ -4,29 +4,34 @@
     border: 0;
 }
 .content {
+    position: relative;
     &__img1 {
-        display: inline;
-        width: 72%;
+        position: absolute;
+        width: 70%;
     }
 
     &__nombreWeb {
-        width: 27%;
+        position: absolute;
+        width: 30%;
         display: inline-block;
-        height: 700px;
+        height: 43.75rem;
+        right: 0%;
     }
 
     h1,
     &__Nombre {
         font-family: "PT Mono", monospace;
         font-size: 130px;
-        margin-left: 10%;
+        margin-top: 20%;
+        margin-left: 15%;
         margin-bottom: 0px;
     }
 
     p,
     &__subNombre {
         font-family: "Roboto", sans-serif;
-        font-size: 40px;
-        margin-left: 10%;
+        font-size: 2.5rem;
+        margin-top: 35px;
+        margin-left: 15%;
     }
 }

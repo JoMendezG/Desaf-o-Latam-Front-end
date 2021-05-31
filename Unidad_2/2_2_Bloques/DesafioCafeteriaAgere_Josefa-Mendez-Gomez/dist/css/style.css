@@ -39,25 +39,70 @@
   border: 0;
 }
 
+.content {
+  position: relative;
+}
 .content__img1 {
-  display: inline;
-  width: 72%;
+  position: absolute;
+  width: 70%;
 }
 .content__nombreWeb {
-  width: 27%;
+  position: absolute;
+  width: 30%;
   display: inline-block;
-  height: 700px;
+  height: 43.75rem;
+  right: 0%;
 }
 .content h1, .content__Nombre {
   font-family: "PT Mono", monospace;
   font-size: 130px;
-  margin-left: 10%;
+  margin-top: 20%;
+  margin-left: 15%;
   margin-bottom: 0px;
 }
 .content p, .content__subNombre {
   font-family: "Roboto", sans-serif;
-  font-size: 40px;
-  margin-left: 10%;
+  font-size: 2.5rem;
+  margin-top: 35px;
+  margin-left: 15%;
+}
+
+.datos {
+  background-color: white;
+  position: absolute;
+  width: 35%;
+  padding: 2% 0;
+  left: 35%;
+  top: 65%;
+}
+.datos__caja1 {
+  display: inline-block;
+  width: 20%;
+  margin-left: 8%;
+}
+.datos__caja2 {
+  margin: 0 8%;
+  display: inline-block;
+  width: 15%;
+}
+.datos__caja3 {
+  display: inline-block;
+  width: 33%;
+}
+.datos__title {
+  font-family: "PT Mono", monospace;
+  font-size: 80px;
+  display: inline-block;
+}
+.datos__txt {
+  display: inline-block;
+  font-family: "Roboto", sans-serif;
+  font-size: 28px;
+}
+
+.texto {
+  position: absolute;
+  display: block;
 }
 
 button.navbarA__btn--primario {
@@ -78,6 +123,7 @@ button.navbarA__btn--secundario {
   font-family: "PT Mono", monospace;
   font-size: 16px;
   color: #a2a2a2;
+  border: solid 1px;
   border-color: #a2a2a2;
 }
 
