@@ -39,11 +39,18 @@
   border: 0;
 }
 
+html,
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
 .content {
   position: relative;
 }
 .content__img1 {
-  position: absolute;
+  position: relative;
   width: 70%;
 }
 .content__nombreWeb {
@@ -56,7 +63,7 @@
 .content h1, .content__Nombre {
   font-family: "PT Mono", monospace;
   font-size: 130px;
-  margin-top: 20%;
+  margin-top: 10%;
   margin-left: 15%;
   margin-bottom: 0px;
 }
@@ -66,14 +73,19 @@
   margin-top: 35px;
   margin-left: 15%;
 }
+.content__img2 {
+  position: absolute;
+  width: 30%;
+}
 
 .datos {
   background-color: white;
   position: absolute;
   width: 35%;
   padding: 2% 0;
+  bottom: 10%;
   left: 35%;
-  top: 65%;
+  z-index: 1;
 }
 .datos__caja1 {
   display: inline-block;
@@ -99,10 +111,89 @@
   font-family: "Roboto", sans-serif;
   font-size: 28px;
 }
-
-.texto {
+.datos__img1 {
   position: absolute;
+  width: 150px;
+  /* width of container */
+  height: 20%;
+  /* height of container */
+  object-fit: cover;
+  object-position: 20% 10%;
+  /* try 20px 10px */
+  left: 65%;
+  z-index: 5;
+}
+
+.naranjo {
+  background-color: #e4572e;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 10;
+  top: 60%;
+  left: 68%;
+}
+
+.amarillo {
+  background-color: #f1dd7b;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  z-index: 9;
+  top: 65%;
+  left: 70%;
+}
+
+.inferior {
+  position: relative;
   display: block;
+}
+.inferior__title {
+  font-family: "PT Mono", monospace;
+  font-size: 40px;
+  display: inline-block;
+}
+.inferior__txt {
+  font-family: "Roboto", sans-serif;
+  font-size: 23px;
+  margin-top: 25px;
+  top: 35%;
+  width: 80%;
+  display: inline-block;
+}
+.inferior__textos {
+  display: inline-block;
+  left: 0%;
+  width: 22%;
+  top: 0%;
+  position: absolute;
+  margin-left: 5%;
+  margin-top: 3%;
+}
+.inferior__img1 {
+  position: absolute;
+  right: 0%;
+  width: 30%;
+}
+.inferior__img2 {
+  position: absolute;
+  left: 30%;
+  width: 22%;
+  margin-top: 2%;
+}
+.inferior__azul {
+  position: absolute;
+  display: inline-block;
+  background-color: #3c91e6;
+  left: 35%;
+  width: 60%;
+  height: 280px;
+  top: 0%;
+}
+
+.images {
+  position: relative;
+  height: 1220px;
 }
 
 button.navbarA__btn--primario {

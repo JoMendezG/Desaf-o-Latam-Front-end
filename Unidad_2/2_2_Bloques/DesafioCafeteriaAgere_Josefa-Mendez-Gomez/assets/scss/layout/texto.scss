@@ -1,4 +1,52 @@
-.texto {
-    position: absolute;
+.inferior {
+    position: relative;
     display: block;
+
+    &__title {
+        font-family: "PT Mono", monospace;
+        font-size: 40px;
+        display: inline-block;
+    }
+
+    &__txt {
+        font-family: "Roboto", sans-serif;
+        font-size: 23px;
+        margin-top: 25px;
+        top: 35%;
+        width: 80%;
+        display: inline-block;
+    }
+
+    &__textos {
+        display: inline-block;
+        left: 0%;
+        width: 22%;
+        top: 0%;
+        position: absolute;
+        margin-left: 5%;
+        margin-top: 3%;
+    }
+
+    &__img1 {
+        position: absolute;
+        right: 0%;
+        width: 30%;
+    }
+
+    &__img2 {
+        position: absolute;
+        left: 30%;
+        width: 22%;
+        margin-top: 2%;
+    }
+
+    &__azul {
+        position: absolute;
+        display: inline-block;
+        background-color: $Blue_de_France;
+        left: 35%;
+        width: 60%;
+        height: 280px;
+        top: 0%;
+    }
 }
