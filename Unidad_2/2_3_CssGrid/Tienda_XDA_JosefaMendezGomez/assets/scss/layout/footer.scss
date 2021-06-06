@@ -1,6 +1,6 @@
 .footer {
     display: grid;
-    grid-template-columns: 85% 15%;
+    grid-template-columns: 90% 10%;
     &__black {
         display: inline-block;
         background-color: $Smoky_black;
@@ -10,14 +10,15 @@
     }
 
     &__white {
-        display: flex;
         font-family: "Old Standard TT", serif;
-        padding: 30px 20px;
+        width: 10%;
         font-weight: bold;
-        transform: rotate(-270deg);
-        text-align: center;
-        padding: 0;
-        align-items: center;
-        justify-content: center;
+
+        h3 {
+            display: block;
+            margin: 0;
+            writing-mode: vertical-rl;
+            text-align: center;
+        }
     }
 }

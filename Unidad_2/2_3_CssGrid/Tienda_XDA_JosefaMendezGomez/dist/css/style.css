@@ -9939,7 +9939,6 @@ h3 {
   grid-template-areas: "header header" "banner banner" "mainInfo mainInfo" "footer footer";
 }
 .content .header {
-  height: 50px;
   grid-area: header;
 }
 .content .banner {
@@ -9959,20 +9958,34 @@ h3 {
     grid-template-areas: "header header" "banner banner" "mainInfo mainInfo" "footer footer";
   }
 }
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
   .content {
     display: grid;
+    grid-template-columns: 40% 60%;
     grid-template-areas: "header header" "mainInfo banner" "mainInfo banner" "footer banner";
   }
 }
 .content .banner {
   background-image: url(../../assets/img/imagen1.png);
   background-size: cover;
-  height: 225px;
+  height: 350px;
   overflow: hidden;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .content .banner {
+    height: 450px;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .content .banner {
+    height: 100%;
+    min-height: 1250px;
+  }
+}
 .mainInfo {
   margin: 30px 20px;
 }
@@ -9980,14 +9993,61 @@ h3 {
   font-family: "Old Standard TT", serif;
   font-weight: bold;
 }
-.mainInfo__text {
+.mainInfo__text-mobile {
   font-family: "Raleway", sans-serif;
   color: #646266;
 }
+.mainInfo__text-tablet {
+  display: none;
+}
+.mainInfo__text-desktop {
+  display: none;
+}
+.mainInfo__button {
+  margin-bottom: 50px;
+  margin-top: 25px;
+}
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .mainInfo {
+    margin: 30px 80px;
+  }
+  .mainInfo__title {
+    font-size: 50px;
+    padding-right: 20%;
+  }
+  .mainInfo__text-mobile {
+    display: none;
+  }
+  .mainInfo__text-tablet {
+    display: block;
+    padding-right: 20%;
+    font-family: "Raleway", sans-serif;
+    color: #646266;
+  }
+  .mainInfo__text-desktop {
+    display: none;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .mainInfo__text-mobile {
+    display: none;
+  }
+  .mainInfo__text-desktop {
+    display: none;
+  }
+  .mainInfo__text-desktop {
+    display: block;
+    padding-right: 20%;
+    font-family: "Raleway", sans-serif;
+    color: #646266;
+  }
+}
 .footer {
   display: grid;
-  grid-template-columns: 85% 15%;
+  grid-template-columns: 90% 10%;
 }
 .footer__black {
   display: inline-block;
@@ -9997,15 +10057,15 @@ h3 {
   padding: 30px 20px;
 }
 .footer__white {
-  display: flex;
   font-family: "Old Standard TT", serif;
-  padding: 30px 20px;
+  width: 10%;
   font-weight: bold;
-  transform: rotate(-270deg);
+}
+.footer__white h3 {
+  display: block;
+  margin: 0;
+  writing-mode: vertical-rl;
   text-align: center;
-  padding: 0;
-  align-items: center;
-  justify-content: center;
 }
 
 .navbar-brand {
@@ -10033,6 +10093,14 @@ nav.navbar.navbar-expand-lg.navbar-light.bg-light {
   padding: 0;
 }
 
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  a.nav-link {
+    font-size: 21px;
+    margin: 0 25px;
+  }
+}
 .mainInfo__button {
   border-radius: 0;
   border: 1px #0c0910 solid;

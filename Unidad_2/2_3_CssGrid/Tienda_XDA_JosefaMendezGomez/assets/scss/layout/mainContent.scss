@@ -5,8 +5,67 @@
         font-weight: bold;
     }
 
-    &__text {
+    &__text-mobile {
         font-family: "Raleway", sans-serif;
         color: $Granite_gray;
+    }
+
+    &__text-tablet {
+        display: none;
+    }
+
+    &__text-desktop {
+        display: none;
+    }
+
+    &__button {
+        margin-bottom: 50px;
+        margin-top: 25px;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    .mainInfo {
+        margin: 30px 80px;
+        &__title {
+            font-size: 50px;
+            padding-right: 20%;
+        }
+
+        &__text-mobile {
+            display: none;
+        }
+
+        &__text-tablet {
+            display: block;
+            padding-right: 20%;
+            font-family: "Raleway", sans-serif;
+            color: $Granite_gray;
+        }
+
+        &__text-desktop {
+            display: none;
+        }
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    .mainInfo {
+        &__text-mobile {
+            display: none;
+        }
+
+        &__text-desktop {
+            display: none;
+        }
+
+        &__text-desktop {
+            display: block;
+            padding-right: 20%;
+            font-family: "Raleway", sans-serif;
+            color: $Granite_gray;
+        }
     }
 }
