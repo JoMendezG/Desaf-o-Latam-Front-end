@@ -14,7 +14,6 @@
 
     .header {
         height: 50px;
-        background-color: red;
         grid-area: header;
     }
 
@@ -23,14 +22,10 @@
     }
 
     .mainInfo {
-        height: 300px;
-        background-color: sandybrown;
         grid-area: mainInfo;
     }
 
     .footer {
-        height: 150px;
-        background-color: slateblue;
         grid-area: footer;
     }
 }

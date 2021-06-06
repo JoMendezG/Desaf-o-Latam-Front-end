@@ -1,6 +1,18 @@
 // Bootstrap 4
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
+// Utilities
+@import "utilities/variables.scss";
+
+// Base
+@import "base/typography.scss";
+
 // Layout
 @import "layout/grid.scss";
 @import "layout/banner.scss";
+@import "layout/mainContent.scss";
+@import "layout/footer.scss";
+
+// Components
+@import "components/navbar.scss";
+@import "components/button.scss";

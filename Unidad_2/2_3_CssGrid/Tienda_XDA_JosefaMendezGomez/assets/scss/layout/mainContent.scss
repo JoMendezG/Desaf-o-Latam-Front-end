@@ -1,0 +1,12 @@
+.mainInfo {
+    margin: 30px 20px;
+    &__title {
+        font-family: "Old Standard TT", serif;
+        font-weight: bold;
+    }
+
+    &__text {
+        font-family: "Raleway", sans-serif;
+        color: $Granite_gray;
+    }
+}

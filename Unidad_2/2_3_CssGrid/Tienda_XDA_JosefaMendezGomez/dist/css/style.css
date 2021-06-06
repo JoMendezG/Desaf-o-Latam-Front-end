@@ -9940,20 +9940,15 @@ h3 {
 }
 .content .header {
   height: 50px;
-  background-color: red;
   grid-area: header;
 }
 .content .banner {
   grid-area: banner;
 }
 .content .mainInfo {
-  height: 300px;
-  background-color: sandybrown;
   grid-area: mainInfo;
 }
 .content .footer {
-  height: 150px;
-  background-color: slateblue;
   grid-area: footer;
 }
 
@@ -9976,6 +9971,73 @@ h3 {
   background-size: cover;
   height: 225px;
   overflow: hidden;
+}
+
+.mainInfo {
+  margin: 30px 20px;
+}
+.mainInfo__title {
+  font-family: "Old Standard TT", serif;
+  font-weight: bold;
+}
+.mainInfo__text {
+  font-family: "Raleway", sans-serif;
+  color: #646266;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 85% 15%;
+}
+.footer__black {
+  display: inline-block;
+  background-color: #0c0910;
+  color: #fff;
+  font-family: "Old Standard TT", serif;
+  padding: 30px 20px;
+}
+.footer__white {
+  display: flex;
+  font-family: "Old Standard TT", serif;
+  padding: 30px 20px;
+  font-weight: bold;
+  transform: rotate(-270deg);
+  text-align: center;
+  padding: 0;
+  align-items: center;
+  justify-content: center;
+}
+
+.navbar-brand {
+  background-color: #0c0910;
+}
+.navbar a.navbar-brand {
+  font-family: "Old Standard TT", serif;
+  padding: 20px;
+  color: white;
+  height: 100%;
+}
+.navbar button.navbar-toggler {
+  margin-right: 30px;
+  border: none;
+}
+.navbar-nav .nav-item {
+  text-align: center;
+}
+.navbar-nav .nav-item a.nav-link {
+  font-weight: bold;
+  color: #0c0910;
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+  padding: 0;
+}
+
+.mainInfo__button {
+  border-radius: 0;
+  border: 1px #0c0910 solid;
+  font-weight: bold;
+  padding: 10px 25px;
 }
 
 /*# sourceMappingURL=style.css.map */

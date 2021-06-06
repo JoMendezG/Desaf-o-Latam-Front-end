@@ -1,0 +1,23 @@
+.footer {
+    display: grid;
+    grid-template-columns: 85% 15%;
+    &__black {
+        display: inline-block;
+        background-color: $Smoky_black;
+        color: $white;
+        font-family: "Old Standard TT", serif;
+        padding: 30px 20px;
+    }
+
+    &__white {
+        display: flex;
+        font-family: "Old Standard TT", serif;
+        padding: 30px 20px;
+        font-weight: bold;
+        transform: rotate(-270deg);
+        text-align: center;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+    }
+}

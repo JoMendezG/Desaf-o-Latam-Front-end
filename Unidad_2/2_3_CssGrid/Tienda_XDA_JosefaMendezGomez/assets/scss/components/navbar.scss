@@ -1,0 +1,31 @@
+.navbar {
+    &-brand {
+        background-color: $Smoky_black;
+    }
+
+    a.navbar-brand {
+        font-family: "Old Standard TT", serif;
+        padding: 20px;
+        color: white;
+        height: 100%;
+    }
+
+    button.navbar-toggler {
+        margin-right: 30px;
+        border: none;
+    }
+
+    &-nav {
+        .nav-item {
+            text-align: center;
+            a.nav-link {
+                font-weight: bold;
+                color: $Smoky_black;
+            }
+        }
+    }
+}
+
+nav.navbar.navbar-expand-lg.navbar-light.bg-light {
+    padding: 0;
+}
