@@ -1,4 +1,10 @@
 .secCards {
+    display: flex;
+    // flex-direction: row;
+    // flex-wrap: wrap;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
     &__title {
         margin: 20px auto;
     }
