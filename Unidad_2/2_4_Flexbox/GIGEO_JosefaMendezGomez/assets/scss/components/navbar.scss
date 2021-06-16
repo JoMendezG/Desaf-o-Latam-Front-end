@@ -1,0 +1,14 @@
+.navbar {
+    margin: 15px 0;
+    &-brand {
+        font-size: 36px;
+    }
+}
+
+nav.navbar.navbar-expand-lg.navbar-light {
+    padding: 0;
+}
+
+button.navbar-toggler {
+    border: none;
+}

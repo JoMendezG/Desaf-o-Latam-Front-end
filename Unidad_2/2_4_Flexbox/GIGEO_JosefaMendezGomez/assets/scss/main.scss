@@ -1,0 +1,10 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+// Layout
+@import "layout/container.scss";
+@import "layout/banner.scss";
+@import "layout/main.scss";
+
+// Components
+@import "components/navbar.scss";
+@import "components/cards.scss";

@@ -1,0 +1,18 @@
+.card {
+    border: none;
+    margin: 15px auto;
+
+    &-body {
+        padding: 0;
+    }
+
+    &-title {
+        margin-top: 12px;
+        margin-bottom: 5px;
+    }
+}
+
+img.card-img-top {
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
