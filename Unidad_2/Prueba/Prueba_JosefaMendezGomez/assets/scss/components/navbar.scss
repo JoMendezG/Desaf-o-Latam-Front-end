@@ -1,0 +1,23 @@
+.navbar {
+    background-color: $black;
+
+    &-brand {
+        img {
+            height: 50px;
+        }
+    }
+
+    &-nav {
+        text-align: center;
+        margin-left: auto;
+    }
+    a.nav-link {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        color: $white;
+    }
+
+    .navbar-dark .navbar-toggler-icon {
+        background-image: url("data:image/svg+xml;..");
+    }
+}

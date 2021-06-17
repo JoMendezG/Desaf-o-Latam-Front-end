@@ -1,0 +1,27 @@
+.content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2 1fr);
+    grid-template-areas:
+        "C2020 C2020"
+        "htlm-sass mas_cursos";
+}
+
+.C2020 {
+    grid-column-start: C2020;
+    grid-column-end: C2020;
+}
+
+.html-sass {
+    grid-column-start: htlm-sass;
+    grid-column-end: htlm-sass;
+
+    height: 500px;
+}
+
+.mas_cursos {
+    grid-column-start: mas_cursos;
+    grid-column-end: mas_cursos;
+
+    height: 500px;
+}
