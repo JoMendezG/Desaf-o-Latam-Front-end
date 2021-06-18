@@ -9930,8 +9930,8 @@ h3 {
 }
 .content {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-areas: "C2020 C2020" "htlm-sass mas_cursos" "footerSection footerSection";
+  grid-template-columns: 1fr;
+  grid-template-areas: "C2020" "htlm-sass" "mas_cursos" "footerSection";
 }
 
 .C2020 {
@@ -9962,33 +9962,10 @@ h3 {
   grid-row-end: footerSection;
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-width: 600px) {
   .content {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(3, 1fr);
-    grid-template-areas: "C2020" "html-sass" "mas_cursos";
-  }
-
-  .C2020 {
-    grid-column-start: C2020;
-    grid-column-end: C2020;
-    grid-row-start: C2020;
-    grid-row-end: C2020;
-  }
-
-  .html-sass {
-    grid-column-start: htlm-sass;
-    grid-column-end: htlm-sass;
-    grid-row-start: htlm-sass;
-    grid-row-end: htlm-sass;
-  }
-
-  .mas_cursos {
-    grid-column-start: mas_cursos;
-    grid-column-end: mas_cursos;
-    grid-row-start: mas_cursos;
-    grid-row-end: mas_cursos;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "C2020 C2020" "htlm-sass mas_cursos" "footerSection footerSection";
   }
 }
 .C2020__img {
@@ -10017,6 +9994,9 @@ h3 {
   font-size: 12px;
   margin-bottom: 5px;
 }
+.html-sass .RRSS_icon {
+  margin: 0 3px;
+}
 
 .mas_cursos {
   border: 1px solid #000;
@@ -10033,6 +10013,13 @@ h3 {
   font-family: "Poppins", sans-serif;
   font-weight: 700;
   text-align: center;
+}
+.mas_cursos_icons {
+  text-align: center;
+}
+.mas_cursos .fab {
+  text-align: center;
+  margin: 0 3px;
 }
 .mas_cursos__textSuperior {
   font-family: "Ubuntu", sans-serif;
