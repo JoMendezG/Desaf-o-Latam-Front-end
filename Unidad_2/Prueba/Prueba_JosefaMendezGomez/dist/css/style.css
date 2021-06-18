@@ -9998,6 +9998,25 @@ h3 {
   margin: 0 3px;
 }
 
+@keyframes deslisar {
+  0% {
+    transform: translatex(0px);
+  }
+  50% {
+    transform: translate(150px);
+  }
+  100% {
+    transform: translate(0px);
+  }
+}
+@keyframes rotar {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
 .mas_cursos {
   border: 1px solid #000;
   margin: 15px;
@@ -10046,6 +10065,13 @@ h3 {
 .mas_cursos__svg {
   margin: 20px auto;
   width: 40%;
+}
+.mas_cursos__animacionLineal {
+  animation: deslisar 2s linear infinite;
+}
+.mas_cursos__engrane {
+  transform-origin: 405px 405px;
+  animation: rotar 3s linear infinite;
 }
 
 .footerSection {
