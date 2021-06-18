@@ -9931,33 +9931,180 @@ h3 {
 .content {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2 1fr);
-  grid-template-areas: "C2020 C2020" "htlm-sass mas_cursos";
+  grid-template-areas: "C2020 C2020" "htlm-sass mas_cursos" "footerSection footerSection";
 }
 
 .C2020 {
   grid-column-start: C2020;
   grid-column-end: C2020;
+  grid-row-start: C2020;
+  grid-row-end: C2020;
 }
 
 .html-sass {
   grid-column-start: htlm-sass;
   grid-column-end: htlm-sass;
-  height: 500px;
+  grid-row-start: htlm-sass;
+  grid-row-end: htlm-sass;
 }
 
 .mas_cursos {
   grid-column-start: mas_cursos;
   grid-column-end: mas_cursos;
-  height: 500px;
+  grid-row-start: mas_cursos;
+  grid-row-end: mas_cursos;
 }
 
+.footerSection {
+  grid-column-start: footerSection;
+  grid-column-end: footerSection;
+  grid-row-start: footerSection;
+  grid-row-end: footerSection;
+}
+
+@media only screen and (max-width: 600px) {
+  .content {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-areas: "C2020" "html-sass" "mas_cursos";
+  }
+
+  .C2020 {
+    grid-column-start: C2020;
+    grid-column-end: C2020;
+    grid-row-start: C2020;
+    grid-row-end: C2020;
+  }
+
+  .html-sass {
+    grid-column-start: htlm-sass;
+    grid-column-end: htlm-sass;
+    grid-row-start: htlm-sass;
+    grid-row-end: htlm-sass;
+  }
+
+  .mas_cursos {
+    grid-column-start: mas_cursos;
+    grid-column-end: mas_cursos;
+    grid-row-start: mas_cursos;
+    grid-row-end: mas_cursos;
+  }
+}
 .C2020__img {
   display: block;
   margin: 0 auto;
   width: 50%;
 }
 
+.html-sass {
+  border: 1px solid #000;
+  margin: 15px;
+}
+.html-sass .card {
+  border: 1px dotted #060606;
+  border-radius: 0px;
+  margin: 15px auto;
+}
+.html-sass .card-title {
+  font-weight: 700;
+}
+.html-sass img.card-img-top {
+  padding: 10px;
+}
+.html-sass p.card-text {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.mas_cursos {
+  border: 1px solid #000;
+  margin: 15px;
+}
+.mas_cursos img.mas_cursos__img {
+  width: 30%;
+  margin: 30px auto 15px auto;
+  display: block;
+  border: 1px solid #000;
+  border-radius: 200px;
+}
+.mas_cursos__title {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+.mas_cursos__textSuperior {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 12px;
+  padding: 0 10px;
+}
+.mas_cursos__title2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  text-align: center;
+  background-color: #2e1503;
+  color: #fff;
+  padding: 5px 0;
+  margin: 0 10px;
+}
+.mas_cursos__listado {
+  margin-top: 10px;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+}
+.mas_cursos ul {
+  list-style-type: circle;
+}
+.mas_cursos__svg {
+  margin: 20px auto;
+  width: 40%;
+}
+
+.footerSection {
+  background-color: #000;
+  padding: 0 15px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.footerSection__text {
+  color: #fff;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 10px;
+  display: inline-block;
+  padding: 30px 0;
+  margin: 0;
+}
+.footerSection__text.footerSection__text--izq {
+  display: block;
+  text-align: center;
+}
+.footerSection__text.footerSection__text--der {
+  float: left;
+  margin: 0 7px;
+}
+.footerSection .form-control {
+  float: right;
+  width: 35%;
+  height: 30px;
+  float: left;
+  margin: 20px 10px;
+}
+.footerSection .btn {
+  background-color: #ffaf6d;
+  margin: 18px 0;
+  border: 3px solid #adb5bd;
+  width: 15%;
+  text-align: center;
+  font-size: 12px;
+  padding: 3px 0;
+}
+
+@media only screen and (max-width: 600px) {
+  .footerSection {
+    grid-template-columns: 1fr;
+  }
+}
 .navbar {
   background-color: #000;
 }

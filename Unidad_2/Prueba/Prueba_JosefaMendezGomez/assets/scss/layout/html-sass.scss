@@ -1,0 +1,24 @@
+.html-sass {
+    border: 1px solid $black;
+    margin: 15px;
+
+    .card {
+        border: 1px dotted $sable;
+        border-radius: 0px;
+        margin: 15px auto;
+
+        &-title {
+            font-weight: 700;
+        }
+    }
+
+    img.card-img-top {
+        padding: 10px;
+    }
+
+    p.card-text {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}

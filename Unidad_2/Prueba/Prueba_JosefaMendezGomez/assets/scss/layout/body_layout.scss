@@ -1,27 +1,76 @@
 .content {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2 1fr);
     grid-template-areas:
         "C2020 C2020"
-        "htlm-sass mas_cursos";
+        "htlm-sass mas_cursos"
+        "footerSection footerSection";
 }
 
 .C2020 {
     grid-column-start: C2020;
     grid-column-end: C2020;
+
+    grid-row-start: C2020;
+    grid-row-end: C2020;
 }
 
 .html-sass {
     grid-column-start: htlm-sass;
     grid-column-end: htlm-sass;
 
-    height: 500px;
+    grid-row-start: htlm-sass;
+    grid-row-end: htlm-sass;
 }
 
 .mas_cursos {
     grid-column-start: mas_cursos;
     grid-column-end: mas_cursos;
 
-    height: 500px;
+    grid-row-start: mas_cursos;
+    grid-row-end: mas_cursos;
+}
+
+.footerSection {
+    grid-column-start: footerSection;
+    grid-column-end: footerSection;
+
+    grid-row-start: footerSection;
+    grid-row-end: footerSection;
+}
+
+@media only screen and (max-width: 600px) {
+    .content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+            "C2020"
+            "html-sass"
+            "mas_cursos";
+    }
+
+    .C2020 {
+        grid-column-start: C2020;
+        grid-column-end: C2020;
+
+        grid-row-start: C2020;
+        grid-row-end: C2020;
+    }
+
+    .html-sass {
+        grid-column-start: htlm-sass;
+        grid-column-end: htlm-sass;
+
+        grid-row-start: htlm-sass;
+        grid-row-end: htlm-sass;
+    }
+
+    .mas_cursos {
+        grid-column-start: mas_cursos;
+        grid-column-end: mas_cursos;
+
+        grid-row-start: mas_cursos;
+        grid-row-end: mas_cursos;
+    }
 }

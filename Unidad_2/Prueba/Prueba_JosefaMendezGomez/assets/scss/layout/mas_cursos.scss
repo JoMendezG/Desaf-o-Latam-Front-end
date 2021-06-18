@@ -1,0 +1,48 @@
+.mas_cursos {
+    border: 1px solid $black;
+    margin: 15px;
+    img.mas_cursos__img {
+        width: 30%;
+        margin: 30px auto 15px auto;
+        display: block;
+        border: 1px solid $black;
+        border-radius: 200px;
+    }
+
+    &__title {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        text-align: center;
+    }
+
+    &__textSuperior {
+        font-family: "Ubuntu", sans-serif;
+        font-size: 12px;
+        padding: 0 10px;
+    }
+
+    &__title2 {
+        font-family: "Poppins", sans-serif;
+        font-weight: 700;
+        text-align: center;
+        background-color: $charcoal;
+        color: $white;
+        padding: 5px 0;
+        margin: 0 10px;
+    }
+
+    &__listado {
+        margin-top: 10px;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 14px;
+    }
+
+    ul {
+        list-style-type: circle;
+    }
+
+    &__svg {
+        margin: 20px auto;
+        width: 40%;
+    }
+}

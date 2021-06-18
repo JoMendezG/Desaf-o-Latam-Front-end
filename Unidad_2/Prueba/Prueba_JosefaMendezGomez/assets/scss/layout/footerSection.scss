@@ -1,0 +1,49 @@
+.footerSection {
+    background-color: $black;
+    padding: 0 15px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+
+    &__text {
+        color: $white;
+        font-family: "Ubuntu", sans-serif;
+        font-size: 10px;
+        display: inline-block;
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    &__text.footerSection__text--izq {
+        display: block;
+        text-align: center;
+    }
+
+    &__text.footerSection__text--der {
+        float: left;
+        margin: 0 7px;
+    }
+
+    .form-control {
+        float: right;
+        width: 35%;
+        height: 30px;
+        float: left;
+        margin: 20px 10px;
+    }
+
+    .btn {
+        background-color: $tangerine;
+        margin: 18px 0;
+        border: 3px solid $gray-500;
+        width: 15%;
+        text-align: center;
+        font-size: 12px;
+        padding: 3px 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .footerSection {
+        grid-template-columns: 1fr;
+    }
+}
