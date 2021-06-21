@@ -1,0 +1,39 @@
+.perfil {
+    &__img {
+        width: 75px;
+        height: 75px;
+        border-radius: 300px;
+        display: inline-block;
+        margin-top: 25px;
+    }
+
+    &__texto {
+        margin-top: 25px;
+        display: inline-block;
+    }
+
+    &__btn-mensaje {
+        display: inline-block;
+        font-weight: 200;
+        font-size: 16px;
+        padding: 5px 10px;
+        color: $white;
+        background-color: #92dce5;
+    }
+
+    &__btn-seguir {
+        display: inline-block;
+        font-weight: 200;
+        font-size: 16px;
+        padding: 5px 10px;
+        color: $white;
+        background-color: #ef6461;
+    }
+
+    &__divider {
+        background-color: #aeaeae;
+        width: 100%;
+        height: 0.5px;
+        margin: 30px 0;
+    }
+}

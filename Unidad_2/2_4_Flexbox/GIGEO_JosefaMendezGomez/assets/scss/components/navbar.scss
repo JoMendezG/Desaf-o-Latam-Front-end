@@ -3,6 +3,19 @@
     &-brand {
         font-size: 36px;
     }
+
+    &-nav {
+        margin-left: auto;
+    }
+
+    i {
+        margin: 0 10px;
+        color: $black;
+    }
+
+    .nav-item {
+        text-align: center;
+    }
 }
 
 nav.navbar.navbar-expand-lg.navbar-light {
