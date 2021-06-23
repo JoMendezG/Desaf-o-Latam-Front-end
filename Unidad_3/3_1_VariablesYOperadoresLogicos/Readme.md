@@ -45,16 +45,16 @@
         <ul>
         0 Grados Celsius corresponden a 273,15 Kelvin. La fórmula para convertirlos
         es 
-        ```
-        0 °C + 273.15 = 273.15 K
-        ```
+        <br>
+        <pre><code>0 °C + 273.15 = 273.15 K
+        </code></pre>
         </ul>
         <ul>
         0 Grados Celsius corresponden a 32 Fahrenheit. La fórmula para convertirlos
         es 
-        ```
-        (0 °C × 9/5) + 32 = 32 °F
-        ```
+        <br>
+        <pre><code>(0 °C × 9/5) + 32 = 32 °F
+        </code></pre>
         </ul>
         </li>
         <br>
