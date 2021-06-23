@@ -78,10 +78,12 @@
         resultado debe ser 1 año, 1 semana y 1 día.
         Se debe considerar lo siguiente:
         <ul>
+        <li>
         1 año tiene 365 días
-        </ul>
-         <ul>
+        </li>
+        <li>
         1 semana tiene 7 días
+        </li>
         </ul>
         Se recomienda usar la función Math.floor para obtener la parte entera de un número
         decimal.
@@ -91,10 +93,12 @@
         Crear un programa que solicite al usuario 5 números y realice los cálculos que se
         piden a continuación.
         <ul>
+        <li>
         La suma de todos los números.
-        </ul>
-        <ul>
+        </li>
+        <li>
         El promedio de los 5 números ingresados
+        </li>
         </ul>
         </li>
     </ol>
