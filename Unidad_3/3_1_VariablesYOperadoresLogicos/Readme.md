@@ -55,18 +55,20 @@
         Se debe considerar la siguiente información respecto a la equivalencia de las
         escalas de temperatura:
         <ul>
+        <li>
         0 Grados Celsius corresponden a 273,15 Kelvin. La fórmula para convertirlos
         es 
         <br>
         <pre><code>0 °C + 273.15 = 273.15 K
         </code></pre>
-        </ul>
-        <ul>
+        </li>
+        <li>
         0 Grados Celsius corresponden a 32 Fahrenheit. La fórmula para convertirlos
         es 
         <br>
         <pre><code>(0 °C × 9/5) + 32 = 32 °F
         </code></pre>
+        </li>
         </ul>
         </li>
         <br>
