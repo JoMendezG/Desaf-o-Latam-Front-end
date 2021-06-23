@@ -17,12 +17,13 @@
     Para ello debes usar Javascript y comentar el código explicando paso a paso lo que se está
     ejecutando. Por ejemplo:</p>
     <img src="imgReadme/foto1.jpg" alt="">
-    <h3>Desafíos</h3>
+    <h1>Desafíos</h1>
     <ol>
         <li>Realizar el diagrama de flujo para las siguientes operaciones matemáticas: Suma,
         Resta, División, Multiplicación y el módulo de un número, partiendo de dos números
         ingresados por el usuario.
         </li>
+        <br>
         <li>
         Realizar operaciones con dos números.
         <br>
@@ -34,6 +35,7 @@
         <ul>Multiplicación</ul>
         <ul>Módulo</ul>
         </li>
+        <br>
         <li>
         Crear un programa que pida al usuario ingresar la temperatura en grados Celsius y
         que la transforme a grados Kelvin y Fahrenheit.
@@ -55,6 +57,7 @@
         ```
         </ul>
         </li>
+        <br>
         <li>
         Crear un programa que pida al usuario una cantidad de días y que muestre su
         equivalente en Años, Semanas y Días. Por ejemplo, si el usuario ingresa 373, el
@@ -69,6 +72,7 @@
         Se recomienda usar la función Math.floor para obtener la parte entera de un número
         decimal.
         </li>
+        <br>
         <li>
         Crear un programa que solicite al usuario 5 números y realice los cálculos que se
         piden a continuación.
