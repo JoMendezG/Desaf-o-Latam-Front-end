@@ -29,11 +29,23 @@
         <br>
         Pedir al usuario que ingrese dos números diferentes y mayores a cero. Para ambos
         números, calcular lo siguiente:
-        <ul>Suma</ul>
-        <ul>Resta</ul>
-        <ul>División</ul>
-        <ul>Multiplicación</ul>
-        <ul>Módulo</ul>
+        <ul>
+        <li>
+        Suma 
+        </li>
+        <li>
+        Resta 
+        </li>
+        <li>
+        División 
+        </li>
+        <li>
+        Multiplicación 
+        </li>
+        <li>
+        Módulo 
+        </li>
+        </ul>
         </li>
         <br>
         <li>
