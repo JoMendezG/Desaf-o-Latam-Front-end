@@ -10,7 +10,7 @@
 <body class="stackedit">
   <div class="stackedit__html">
     <h1 id="github-pages">Github pages</h1>
-    <p><a href="https://josefamendezpruebaunodl.ga/Unidad_2/Prueba/Prueba_JosefaMendezGomez/index.html">Vista
+    <p><a href="https://josefamendezpruebaunodl.ga/Unidad_3/3_1_VariablesYOperadoresLogicos/index.html">Vista
         del proyecto</a></p>
     <h1 id="desafío">Descripción </h1>
     <p>En tus tareas en el desarrollo web, te encontrarás con la necesidad de responder a diversos requerimientos. En esta ocasión, tu trabajo será resolver, con los conocimientos que has adquirido, una serie de cálculos matemáticos que se necesitan diagramar y/o programar según corresponda.

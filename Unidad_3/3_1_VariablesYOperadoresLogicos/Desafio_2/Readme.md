@@ -14,7 +14,6 @@
         del proyecto</a></p>
     <h1 id="desafío">Desafío 2 </h1>
     <p>Realizar operaciones con dos números.</p>
-    <br>
     <p> Pedir al usuario que ingrese dos números diferentes y mayores a cero. Para ambos
         números, calcular lo siguiente:</p>
         <ul>
