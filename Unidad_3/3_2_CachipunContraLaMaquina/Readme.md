@@ -52,7 +52,7 @@
           </li>
         <br>
           <li>
-          Generar una jugada automática para la máquina usando la función <pre><code> Math.random() </code></pre>
+          Generar una jugada automática para la máquina usando la función Math.random()
           de Javascript. </li>
         <br>
         <li>
