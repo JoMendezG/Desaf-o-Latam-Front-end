@@ -16,14 +16,16 @@
 
 <body>
     <h1 id="oponente"></h1>
-    <button class="selecOponente"></button>
+    <button class="selecOponente"><i id="tuSelect2" onclick="change('tuSelect2')"
+            class="fas fa-question fa-4x"></i></button>
 
     <h2>VS</h2>
-    <button class="selecOponente"></button>
+    <button class="tuSelect"> <i id="tuSelect" class="fas fa-question fa-4x"></i> </button>
 
 
-    <div class="botonesSeleccion">
-        <button onclick="papel()"> <i class="far fa-hand-paper fa-5x"></i></button>
+
+    <div class=" botonesSeleccion">
+        <button onclick="papel(tuSelect)"> <i class="far fa-hand-paper fa-5x"></i></button>
         <button onclick="tijera()"><i class="far fa-hand-scissors fa-5x"></i></button>
         <button onclick="piedra()"><i class="far fa-hand-rock fa-5x"></i></button>
     </div>

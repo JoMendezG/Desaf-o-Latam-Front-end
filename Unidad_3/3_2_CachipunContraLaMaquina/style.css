@@ -11,7 +11,28 @@ button {
    box-shadow: rgba(0, 0, 0, 0.20) 2px 2px 2px 2px;
 }
 
+#tuSelect {
+    width: 66px;
+    height: 66px;
+    padding: auto;
+}
+
+button.tuEleccion {
+    display: block;
+    margin: 50px auto;
+    width: 96px;
+    height: 96px;
+}
+
+
 .selecOponente {
+    display: block;
+    margin: 50px auto;
+    width: 96px;
+    height: 96px;
+}
+
+.tuSelect {
     display: block;
     margin: 50px auto;
     width: 96px;
