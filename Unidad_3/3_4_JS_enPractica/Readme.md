@@ -17,9 +17,11 @@
       muchas veces tendrás que completar tareas junto con tu equipo de trabajo, colaborando
       con las habilidades que cada uno posee para construir el proyecto solicitado.
       <br>
+      <br>
       En uno de los proyectos que se están trabajando en la empresa, ya se ha resuelto el código
       HTML por un integrante del equipo de trabajo, y te solicitan incluir la lógica de JavaScript
       para terminar los requerimientos.
+      <br>
       <br>
       En el siguiente desafío pondremos en práctica el uso de listener y selectores para manipular
       los elementos del DOM, ya sea para cambiar sus estilos o añadir mensajes informativos
@@ -35,14 +37,18 @@
             ingresar datos en el formulario y que estos solo sean caracteres alfabéticos de la “a”
             hasta la “z” para poder enviar la información. Como se muestra en las siguientes
             imágenes:
+            <br>
             <img src="imgReadme/img1.jpg" alt="">
+            <br>
             <img src="imgReadme/img2.jpg" alt="">
         </li>
         <br>
         <li>
         A partir de un selector de colores, cambia el color del cuadro principal al hacer click
         sobre uno de los colores. Ver las siguientes imágenes:
+        <br>
         <img src="imgReadme/img3.jpg" alt="">
+        <br>
         <img src="imgReadme/img4.jpg" alt="">
         <br>
         <li>
