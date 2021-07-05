@@ -38,7 +38,9 @@
             hasta la “z” para poder enviar la información. Como se muestra en las siguientes
             imágenes:
             <br>
+            <br>
             <img src="imgReadme/img1.jpg" alt="">
+            <br>
             <br>
             <img src="imgReadme/img2.jpg" alt="">
         </li>
@@ -47,7 +49,9 @@
         A partir de un selector de colores, cambia el color del cuadro principal al hacer click
         sobre uno de los colores. Ver las siguientes imágenes:
         <br>
+        <br>
         <img src="imgReadme/img3.jpg" alt="">
+        <br>
         <br>
         <img src="imgReadme/img4.jpg" alt="">
         <br>
