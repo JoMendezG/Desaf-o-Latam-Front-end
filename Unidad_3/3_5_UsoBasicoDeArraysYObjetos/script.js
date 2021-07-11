@@ -1,5 +1,7 @@
-// Base de datos de las consultas medicas
-function BaseDeDatos() {
+// Variables de texto para encabezado de la tabla
+let texto = "<tr><th>Hora</th><th>Especialista</th><th>Paciente</th><th>Rut</th><th>Prevision</th></tr>";
+
+function tRadiologia () {
     const Radiologia = [
         {
             hora:"11:00",
@@ -37,6 +39,24 @@ function BaseDeDatos() {
             prevision: "FONASA"
         }
     ];
+
+    // For que recorre toda la lista
+    for (let i = 0; i < Radiologia.length; i++) {
+        texto += 
+        `<tr>
+        <td>${Radiologia[i].hora}</td>
+        <td>${Radiologia[i].especialista}</td>
+        <td>${Radiologia[i].paciente}</td>
+        <td>${Radiologia[i].rut}</td>
+        <td>${Radiologia[i].prevision}</td>
+        </tr>`
+    }
+
+     // Enlazamos la tabla de html a través del ID
+     document.getElementById("tablaRadiologia").innerHTML = texto;
+}
+
+function tTraumatologia () {
 
     const Traumatologia = [
         {
@@ -90,6 +110,23 @@ function BaseDeDatos() {
         }
     ];
 
+    // For que recorre toda la lista
+    for (let i = 0; i < Traumatologia.length; i++ ){
+        texto += 
+        `<tr>
+        <td>${Traumatologia[i].hora}</td>
+        <td>${Traumatologia[i].especialista}</td>
+        <td>${Traumatologia[i].paciente}</td>
+        <td>${Traumatologia[i].rut}</td>
+        <td>${Traumatologia[i].prevision}</td>
+        </tr>`
+    }
+
+    // Enlazamos la tabla de html a través del ID
+    document.getElementById("tablaTraumatologia").innerHTML = texto;
+}
+
+function tDental () {
     const Dental = [
         {
             hora:"08:30",
@@ -135,31 +172,6 @@ function BaseDeDatos() {
         }
     ];
 
-    // Variables de texto para imprimir la tabla
-    let texto = "<tr><th>Hora</th><th>Especialista</th><th>Paciente</th><th>Rut</th><th>Prevision</th></tr>";
-
-    // For que recorre toda la lista
-    for (let i = 0; i < Radiologia.length; i++ ){
-        texto += 
-        `<tr>
-        <td>${Radiologia[i].hora}</td>
-        <td>${Radiologia[i].especialista}</td>
-        <td>${Radiologia[i].paciente}</td>
-        <td>${Radiologia[i].rut}</td>
-        <td>${Radiologia[i].prevision}</td>
-        </tr>`
-    }
-    // For que recorre toda la lista
-    for (let i = 0; i < Traumatologia.length; i++ ){
-        texto += 
-        `<tr>
-        <td>${Traumatologia[i].hora}</td>
-        <td>${Traumatologia[i].especialista}</td>
-        <td>${Traumatologia[i].paciente}</td>
-        <td>${Traumatologia[i].rut}</td>
-        <td>${Traumatologia[i].prevision}</td>
-        </tr>`
-    }
     // For que recorre toda la lista
     for (let i = 0; i < Dental.length; i++ ){
         texto += 
@@ -172,10 +184,9 @@ function BaseDeDatos() {
         </tr>`
     }
     // Enlazamos la tabla de html a través del ID
-    document.getElementById("cuerpoTabla").innerHTML = texto;
+    document.getElementById("tablaDental").innerHTML = texto;
 }
 
-BaseDeDatos();
-
-
-
+tRadiologia();
+tTraumatologia();
+tDental();
